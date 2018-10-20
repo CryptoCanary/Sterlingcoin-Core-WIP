@@ -80,11 +80,11 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += heliumd
+  bin_PROGRAMS += sterlingcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += helium-cli helium-tx
+  bin_PROGRAMS += sterlingcoin-cli sterlingcoin-tx
 endif
 
 .PHONY: FORCE
@@ -208,7 +208,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between heliumd and helium-qt
+# server: shared between sterlingcoind and sterlingcoin-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -256,7 +256,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between heliumd and helium-qt, but only linked
+# wallet: shared between sterlingcoind and sterlingcoin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -351,7 +351,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between heliumd, and helium-qt and non-server tools
+# common: shared between sterlingcoind, and sterlingcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -416,7 +416,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between helium-cli and helium-qt
+# cli: shared between sterlingcoin-cli and sterlingcoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -426,16 +426,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# heliumd binary #
-heliumd_SOURCES = bitcoind.cpp
-heliumd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-heliumd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-heliumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# sterlingcoind binary #
+sterlingcoind_SOURCES = bitcoind.cpp
+sterlingcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+sterlingcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+sterlingcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-heliumd_SOURCES += bitcoind-res.rc
+sterlingcoind_SOURCES += bitcoind-res.rc
 endif
-heliumd_LDADD = \
+sterlingcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -448,38 +448,38 @@ heliumd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-heliumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+sterlingcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# helium-cli binary #
-helium_cli_SOURCES = bitcoin-cli.cpp
-helium_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-helium_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-helium_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# sterlingcoin-cli binary #
+sterlingcoin_cli_SOURCES = bitcoin-cli.cpp
+sterlingcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+sterlingcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+sterlingcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-helium_cli_SOURCES += bitcoin-cli-res.rc
+sterlingcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-helium_cli_LDADD = \
+sterlingcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-helium_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+sterlingcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# helium-tx binary #
-helium_tx_SOURCES = bitcoin-tx.cpp
-helium_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-helium_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-helium_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# sterlingcoin-tx binary #
+sterlingcoin_tx_SOURCES = bitcoin-tx.cpp
+sterlingcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+sterlingcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+sterlingcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-helium_tx_SOURCES += bitcoin-tx-res.rc
+sterlingcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-helium_tx_LDADD = \
+sterlingcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -487,7 +487,7 @@ helium_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-helium_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+sterlingcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

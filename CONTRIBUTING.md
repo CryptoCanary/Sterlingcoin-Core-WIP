@@ -1,7 +1,7 @@
-Contributing to PIVX Core
-============================
+Contributing to Sterlingcoin Core
+=================================
 
-The PIVX Core project operates an open contributor model where anyone is
+The Sterlingcoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -62,7 +62,7 @@ the pull request affects. Valid areas as:
   - *Net* or *P2P* for changes to the peer-to-peer network code
   - *RPC/REST* for changes to the RPC or REST APIs
   - *Scripts and tools* for changes to the scripts and tools
-  - *Tests* for changes to the unit tests or QA tests
+  - *Tests* for changes to the sterlingcoin unit tests or QA tests
   - *Trivial* should **only** be used for PRs that do not change generated
     executable code. Notably, refactors (change of function arguments and code
     reorganization) and changes in behavior should **not** be marked as trivial.

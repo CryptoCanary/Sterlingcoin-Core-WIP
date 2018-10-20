@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2018 The Sterlingcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,7 +33,7 @@ struct SeedSpec6 {
 /**
  * Main network
  */
-static bool regenerate = false;
+static bool regenerate = true;
 
 //! Convert the pnSeeds6 array into usable address objects.
 static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data, unsigned int count)
@@ -59,10 +60,6 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (    0, uint256("0000033346b0b31697bcd178789fe1d6d10f96a7fd46d74fbf647d5ea3757348"))
-    (30000, uint256("8c65cf5033aa6b6ea4254c830c4c77c4de30875e6ba5ee619b31350bc314b7cf"))
-    (31331, uint256("f88c7264a05c05033a98c92088613880cd4d210aab12367eb48d5fe3a0189672"))
-    (32848, uint256("352431d65a69b3425ce508cfbbff077c8fdc2833a84e6e239f0ba8e7300e9744"))
-    (31562, uint256("7738a178f95139b2cd6b2120b19584cc17a2a28a00962b5d28978cd199427821"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -126,15 +123,15 @@ public:
         pchMessageStart[3] = 0xe0;
         vAlertPubKey = ParseHex("0x"); // Disabled
         nDefaultPort = 9009;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Helium starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Sterlingcoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210240;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Helium: 1 day
-        nTargetSpacing = 60;  // Helium: 1 minute
+        nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
+        nTargetSpacing = 60;  // Sterlingcoin: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;

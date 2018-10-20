@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to Helium Core.
-General Helium questions and/or support requests and are best directed to the [Helium Slack](https://onetrollbox.slack.com).
+This issue tracker is only for technical issues related to Sterlingcoin Core.
+General Sterlingcoin questions and/or support requests and are best directed to the [Sterlingcoin Discord](https://discord.me/Sterlingcoin).
 
 ### Describe the issue
 

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Helium"
-            VALUE "FileDescription",    "helium-cli (OSS RPC client for Helium)"
+            VALUE "CompanyName",        "Sterlingcoin"
+            VALUE "FileDescription",    "sterlingcoin-cli (OSS RPC client for Helium)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "helium-cli"
+            VALUE "InternalName",       "sterlingcoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "helium-cli.exe"
-            VALUE "ProductName",        "helium-cli"
+            VALUE "OriginalFilename",   "sterlingcoin-cli.exe"
+            VALUE "ProductName",        "sterlingcoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
