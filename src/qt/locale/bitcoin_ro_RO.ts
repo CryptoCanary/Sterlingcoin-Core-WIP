@@ -189,7 +189,7 @@
     </message>
     </context>
 <context>
-    <name>ZHeliumControlDialog</name>
+    <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
     <name>helium-core</name>

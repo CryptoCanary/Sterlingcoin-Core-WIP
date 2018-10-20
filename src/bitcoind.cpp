@@ -128,7 +128,7 @@ bool AppInit(int argc, char* argv[])
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Helium server starting\n");
+            fprintf(stdout, "Sterlingcoin server starting\n");
 
             // Daemonize
             pid_t pid = fork();

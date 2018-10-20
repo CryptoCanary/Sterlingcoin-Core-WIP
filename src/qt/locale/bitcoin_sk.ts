@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Helium adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your Sterlingcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše Sterlingcoin adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Helium adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your Sterlingcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Sterlingcoin adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Helium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
-        <translation>Helium sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše HLM pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Sterlingcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SLGs from being stolen by malware infecting your computer.</source>
+        <translation>Sterlingcoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SLG pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY HLM &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY SLG &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Helium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Helium, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a Sterlingcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu Sterlingcoin, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Adresa Helium, ktorou chcete správu podpísať</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Adresa Sterlingcoin, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Helium adresy</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Sterlingcoin adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>Helium adresa, ktorou bola správa podpísaná</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>Sterlingcoin adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Helium address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Helium adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Sterlingcoin address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Sterlingcoin adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Core</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a Helium address</source>
-        <translation>Odoslať mince na adresu Helium</translation>
+        <source>Send coins to a Sterlingcoin address</source>
+        <translation>Odoslať mince na adresu Sterlingcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and helium: URIs)</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Helium Core</source>
-        <translation>O Helium Core</translation>
+        <source>&amp;About Sterlingcoin Core</source>
+        <translation>O Sterlingcoin Core</translation>
     </message>
     <message>
-        <source>Show information about Helium Core</source>
-        <translation>Zobraziť informácie o Helium Core</translation>
+        <source>Show information about Sterlingcoin Core</source>
+        <translation>Zobraziť informácie o Sterlingcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Helium</source>
-        <translation>Zmeňte možnosti konfigurácie pre Helium</translation>
+        <source>Modify configuration options for Sterlingcoin</source>
+        <translation>Zmeňte možnosti konfigurácie pre Sterlingcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your Helium addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Helium, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your Sterlingcoin addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy Sterlingcoin, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Helium addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Helium adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Sterlingcoin addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Sterlingcoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a Helium: URI or payment request</source>
-        <translation>Otvorte Helium: URI alebo žiadosť o platbu</translation>
+        <source>Open a Sterlingcoin: URI or payment request</source>
+        <translation>Otvorte Sterlingcoin: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Helium Core help message to get a list with possible Helium command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Helium Core a získajte zoznam možností príkazového riadka Helium</translation>
+        <source>Show the Sterlingcoin Core help message to get a list with possible Sterlingcoin command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Sterlingcoin Core a získajte zoznam možností príkazového riadka Sterlingcoin</translation>
     </message>
     <message>
-        <source>Helium Core client</source>
-        <translation>Helium Core klient</translation>
+        <source>Sterlingcoin Core client</source>
+        <translation>Sterlingcoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Core</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Core</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1140,8 +1140,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Adresa Helium, ktorou chcete správu podpísať</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Adresa Sterlingcoin, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1164,16 +1164,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Helium adresy</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Sterlingcoin adresy</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>Helium adresa, ktorou bola správa podpísaná</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>Sterlingcoin adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Helium address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Helium adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Sterlingcoin address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Sterlingcoin adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Core</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Core</translation>
     </message>
     </context>
 <context>
@@ -1307,7 +1307,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZHeliumControlDialog</name>
+    <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
     <name>helium-core</name>

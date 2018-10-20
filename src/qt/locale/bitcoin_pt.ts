@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Helium para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your Sterlingcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Sterlingcoin para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Helium para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Sterlingcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Sterlingcoin para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Helium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
-        <translation>Helium encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas HLMs contra roubo por malware infectando seu computador.</translation>
+        <source>Sterlingcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SLGs from being stolen by malware infecting your computer.</source>
+        <translation>Sterlingcoin encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SLGs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA HLM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA SLG&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Helium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Helium que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Sterlingcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Sterlingcoin que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Um endereço Helium para assinar a mensagem</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Um endereço Sterlingcoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Helium.</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Sterlingcoin.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>O endereço Helium que foi assinado com</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>O endereço Sterlingcoin que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -668,8 +668,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Um endereço Helium para assinar a mensagem</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Um endereço Sterlingcoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -700,12 +700,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Helium.</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Sterlingcoin.</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>O endereço Helium que foi assinado com</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>O endereço Sterlingcoin que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -903,7 +903,7 @@
     </message>
     </context>
 <context>
-    <name>ZHeliumControlDialog</name>
+    <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
     <name>helium-core</name>
@@ -912,8 +912,8 @@
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Helium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da Helium (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all Sterlingcoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Sterlingcoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1272,8 +1272,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Helium Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Helium Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Sterlingcoin Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Sterlingcoin Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

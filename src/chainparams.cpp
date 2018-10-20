@@ -209,7 +209,7 @@ public:
 	vSeeds.push_back(CDNSSeedData("seed4", "s4.heliumcoin.info"));
         vSeeds.push_back(CDNSSeedData("seed5", "s5.heliumcoin.info"));
 	
-        // Helium addresses start with 'S'
+        // Sterlingcoin addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
         // Helium script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -349,7 +349,7 @@ public:
 	vSeeds.push_back(CDNSSeedData("Kserv", "149.28.242.177"));
 	vSeeds.push_back(CDNSSeedData("Xojserv", "45.63.83.41"));
 
-        // Testnet Helium addresses start with 'm' or 'n'
+        // Testnet Sterlingcoin addresses start with 'm' or 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         // Testnet Helium script addresses start with '2'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

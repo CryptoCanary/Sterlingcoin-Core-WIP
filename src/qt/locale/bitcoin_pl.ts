@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE HLM!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE SLG!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Helium jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Sterlingcoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,12 +518,12 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Helium Core</source>
-        <translation>&amp;Rdzeń Helium</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>&amp;Rdzeń Sterlingcoin</translation>
     </message>
     <message>
-        <source>Send coins to a Helium address</source>
-        <translation>Wyślij monety do adresu Helium</translation>
+        <source>Send coins to a Sterlingcoin address</source>
+        <translation>Wyślij monety do adresu Sterlingcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and helium: URIs)</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Helium Core</source>
+        <source>&amp;About Sterlingcoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Helium Core</source>
+        <source>Show information about Sterlingcoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Helium</source>
-        <translation>Modyfikuj opcje konfiguracji Helium</translation>
+        <source>Modify configuration options for Sterlingcoin</source>
+        <translation>Modyfikuj opcje konfiguracji Sterlingcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your Helium addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Helium, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Sterlingcoin addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Sterlingcoin, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Helium addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Helium</translation>
+        <source>Verify messages to ensure they were signed with specified Sterlingcoin addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Sterlingcoin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Helium: URI or payment request</source>
-        <translation>Otwórz Helium: URI i żądanie zapłaty</translation>
+        <source>Open a Sterlingcoin: URI or payment request</source>
+        <translation>Otwórz Sterlingcoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Helium Core help message to get a list with possible Helium command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Helium, aby dostać listę możliwych opcji Helium command-line</translation>
+        <source>Show the Sterlingcoin Core help message to get a list with possible Sterlingcoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Sterlingcoin, aby dostać listę możliwych opcji Sterlingcoin command-line</translation>
     </message>
     <message>
-        <source>Helium Core client</source>
-        <translation>Rdzeń Helium klient</translation>
+        <source>Sterlingcoin Core client</source>
+        <translation>Rdzeń Sterlingcoin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Helium Core</source>
-        <translation>&amp;Rdzeń Helium</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>&amp;Rdzeń Sterlingcoin</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Helium Core</source>
-        <translation>&amp;Rdzeń Helium</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>&amp;Rdzeń Sterlingcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Helium after logging in to the system.</source>
-        <translation>Automatycznie uruchom Helium po zalogowaniu do systemu</translation>
+        <source>Automatically start Sterlingcoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom Sterlingcoin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Helium on system login</source>
-        <translation>&amp;Uruchom Helium podczas logowania do systemu</translation>
+        <source>&amp;Start Sterlingcoin on system login</source>
+        <translation>&amp;Uruchom Sterlingcoin podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,8 +1212,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Helium.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Helium</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sterlingcoin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Sterlingcoin</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1222,8 +1222,8 @@ https://www.transifex.com/helium-project/helium-project-translations</source>
 https://www.transifex.com/helium-project/helium-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Helium network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Helium poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Sterlingcoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Sterlingcoin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/helium-project/helium-project-translations </translati
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Helium address (e.g. %1)</source>
-        <translation>Wprowadź adres Helium (np. %1)</translation>
+        <source>Enter a Sterlingcoin address (e.g. %1)</source>
+        <translation>Wprowadź adres Sterlingcoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/helium-project/helium-project-translations </translati
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Helium jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Sterlingcoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/helium-project/helium-project-translations </translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Helium Core</source>
-        <translation>&amp;Rdzeń Helium</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>&amp;Rdzeń Sterlingcoin</translation>
     </message>
     </context>
 <context>
@@ -2027,7 +2027,7 @@ https://www.transifex.com/helium-project/helium-project-translations </translati
     </message>
     </context>
 <context>
-    <name>ZHeliumControlDialog</name>
+    <name>ZSterlingcoinControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

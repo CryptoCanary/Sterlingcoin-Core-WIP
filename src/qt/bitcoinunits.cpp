@@ -57,22 +57,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case BTC:
-            return QString("HLM");
+            return QString("SLG");
         case mBTC:
-            return QString("mHLM");
+            return QString("mSLG");
         case uBTC:
-            return QString::fromUtf8("μHLM");
+            return QString::fromUtf8("μSLG");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case BTC:
-            return QString("tHLM");
+            return QString("tSLG");
         case mBTC:
-            return QString("mtHLM");
+            return QString("mtSLG");
         case uBTC:
-            return QString::fromUtf8("μtHLM");
+            return QString::fromUtf8("μtSLG");
         default:
             return QString("???");
         }
@@ -84,22 +84,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case BTC:
-            return QString("HLM");
+            return QString("SLG");
         case mBTC:
-            return QString("Milli-HLM (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-SLG (1 / 1" THIN_SP_UTF8 "000)");
         case uBTC:
-            return QString("Micro-HLM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-SLG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case BTC:
-            return QString("TestHLMs");
+            return QString("TestSLGs");
         case mBTC:
-            return QString("Milli-TestHLM (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestSLG (1 / 1" THIN_SP_UTF8 "000)");
         case uBTC:
-            return QString("Micro-TestHLM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestSLG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }

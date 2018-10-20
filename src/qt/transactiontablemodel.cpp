@@ -344,9 +344,9 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::SendToSelf:
         return tr("Payment to yourself");
     case TransactionRecord::StakeMint:
-        return tr("HLM Stake");
+        return tr("SLG Stake");
     case TransactionRecord::StakeZPIV:
-        return tr("zHLM Stake");
+        return tr("zSLG Stake");
     case TransactionRecord::Generated:
         return tr("Mined");
     case TransactionRecord::ObfuscationDenominate:
@@ -360,15 +360,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Obfuscated:
         return tr("Obfuscated");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted HLM to zHLM");
+        return tr("Converted SLG to zSLG");
     case TransactionRecord::ZerocoinSpend:
-        return tr("Spent zHLM");
+        return tr("Spent zSLG");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received HLM from zHLM");
+        return tr("Received SLG from zSLG");
     case TransactionRecord::ZerocoinSpend_Change_zPiv:
-        return tr("Minted Change as zHLM from zHLM Spend");
+        return tr("Minted Change as zSLG from zSLG Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zHLM to HLM");
+        return tr("Converted zSLG to SLG");
 
     default:
         return QString();
@@ -424,9 +424,9 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord* wtx, b
         return QString::fromStdString(wtx->address) + watchAddress;
     case TransactionRecord::ZerocoinMint:
     case TransactionRecord::ZerocoinSpend_Change_zPiv:
-        return tr("Anonymous (zHLM Transaction)");
+        return tr("Anonymous (zSLG Transaction)");
     case TransactionRecord::StakeZPIV:
-        return tr("Anonymous (zHLM Stake)");
+        return tr("Anonymous (zSLG Stake)");
     case TransactionRecord::SendToSelf:
     default:
         return tr("(n/a)") + watchAddress;

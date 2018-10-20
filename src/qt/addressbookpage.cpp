@@ -67,11 +67,11 @@ AddressBookPage::AddressBookPage(Mode mode, Tabs tab, QWidget* parent) : QDialog
     }
     switch (tab) {
     case SendingTab:
-        ui->labelExplanation->setText(tr("These are your Helium addresses for sending payments. Always check the amount and the receiving address before sending coins."));
+        ui->labelExplanation->setText(tr("These are your Sterlingcoin addresses for sending payments. Always check the amount and the receiving address before sending coins."));
         ui->deleteAddress->setVisible(true);
         break;
     case ReceivingTab:
-        ui->labelExplanation->setText(tr("These are your Helium addresses for receiving payments. It is recommended to use a new receiving address for each transaction."));
+        ui->labelExplanation->setText(tr("These are your Sterlingcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction."));
         ui->deleteAddress->setVisible(false);
         break;
     }

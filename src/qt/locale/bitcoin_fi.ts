@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Helium osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Sterlingcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Sterlingcoin osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Helium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Helium osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your Sterlingcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Sterlingcoin osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Helium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
-        <translation>Helium sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella HLMien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Sterlingcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SLGs from being stolen by malware infecting your computer.</source>
+        <translation>Sterlingcoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SLGien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki HLMisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SLGisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Helium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Helium osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Sterlingcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Sterlingcoin osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Helium osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Sterlingcoin osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Helium osoitteen</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Sterlingcoin osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>Helium osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>Sterlingcoin osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Helium address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Helium osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Sterlingcoin address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Sterlingcoin osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,12 +591,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Ydin</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Helium address</source>
-        <translation>Lähetä kolikkoja Helium osoitteeseen</translation>
+        <source>Send coins to a Sterlingcoin address</source>
+        <translation>Lähetä kolikkoja Sterlingcoin osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and helium: URIs)</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Helium Core</source>
-        <translation>Helium Core &amp;ytimestä</translation>
+        <source>&amp;About Sterlingcoin Core</source>
+        <translation>Sterlingcoin Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Helium Core</source>
-        <translation>Näytä tietoja Helium Ytimestä</translation>
+        <source>Show information about Sterlingcoin Core</source>
+        <translation>Näytä tietoja Sterlingcoin Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Helium</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Helium:lle</translation>
+        <source>Modify configuration options for Sterlingcoin</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Sterlingcoin:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Helium addresses to prove you own them</source>
+        <source>Sign messages with your Sterlingcoin addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Helium addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Helium osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified Sterlingcoin addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Sterlingcoin osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Helium: URI or payment request</source>
-        <translation>Avaa Helium: URI tai pyydä maksua</translation>
+        <source>Open a Sterlingcoin: URI or payment request</source>
+        <translation>Avaa Sterlingcoin: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Helium Core help message to get a list with possible Helium command-line options</source>
-        <translation>Näytä Helium Ydin apuviesti saadaksesi lista mahdollisista Helium komentolinja komennoista.</translation>
+        <source>Show the Sterlingcoin Core help message to get a list with possible Sterlingcoin command-line options</source>
+        <translation>Näytä Sterlingcoin Ydin apuviesti saadaksesi lista mahdollisista Sterlingcoin komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Helium Core client</source>
-        <translation>Helium Ydin asiakasohjelma</translation>
+        <source>Sterlingcoin Core client</source>
+        <translation>Sterlingcoin Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Ydin</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Helium Core.</source>
-        <translation>Tervetuloa Helium Ytimeen.</translation>
+        <source>Welcome to Sterlingcoin Core.</source>
+        <translation>Tervetuloa Sterlingcoin Ytimeen.</translation>
     </message>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Ydin</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1135,32 +1135,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Helium</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SLG</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Sterlingcoin</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Helium</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SLG</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Sterlingcoin</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 HLM to anonymize 10000 HLM</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 HLM anonymoidaksesi 10000 Helium</translation>
+        <source>This option is the quickest and will cost about ~0.025 SLG to anonymize 10000 SLG</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SLG anonymoidaksesi 10000 Sterlingcoin</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 HLM to anonymize 10000 HLM</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Helium anonymoidaksesi 10000 Helium</translation>
+        <source>This option is moderately fast and will cost about 0.05 SLG to anonymize 10000 SLG</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Sterlingcoin anonymoidaksesi 10000 Sterlingcoin</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 HLM per 10000 HLM you anonymize.</source>
-        <translation>0.1 per 10000 Helium, jotka anonymisoit.</translation>
+        <source>0.1 SLG per 10000 SLG you anonymize.</source>
+        <translation>0.1 per 10000 Sterlingcoin, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1209,12 +1209,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Helium after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Helium kun kirjaudut sisään.</translation>
+        <source>Automatically start Sterlingcoin after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Sterlingcoin kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Helium on system login</source>
-        <translation>&amp;Aloita Helium järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Sterlingcoin on system login</source>
+        <translation>&amp;Aloita Sterlingcoin järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1233,12 +1233,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Helium.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sterlingcoin.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Helium network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Helium verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Sterlingcoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Sterlingcoin verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1542,8 +1542,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Helium debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Helium debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Sterlingcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Sterlingcoin debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1654,8 +1654,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Helium RPC console.</source>
-        <translation>Tervetuloa Helium RPC konsoliin.</translation>
+        <source>Welcome to the Sterlingcoin RPC console.</source>
+        <translation>Tervetuloa Sterlingcoin RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1697,12 +1697,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Helium network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Helium verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Sterlingcoin network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Sterlingcoin verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Helium network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Helium  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Sterlingcoin network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Sterlingcoin  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1898,8 +1898,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 HLM</source>
-        <translation>0 HLM</translation>
+        <source>0 SLG</source>
+        <translation>0 SLG</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1982,8 +1982,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid Helium address</source>
-        <translation>Varoitus: Virheellinen Helium osoite</translation>
+        <source>Warning: Invalid Sterlingcoin address</source>
+        <translation>Varoitus: Virheellinen Sterlingcoin osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2029,8 +2029,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Helium address to send the payment to</source>
-        <translation>Helium osoite johon maksu lähetetään</translation>
+        <source>The Sterlingcoin address to send the payment to</source>
+        <translation>Sterlingcoin osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2072,8 +2072,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Helium Core is shutting down...</source>
-        <translation>Helium core sammuu...</translation>
+        <source>Sterlingcoin Core is shutting down...</source>
+        <translation>Sterlingcoin core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2091,8 +2091,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The Helium address to sign the message with</source>
-        <translation>Helium osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Sterlingcoin address to sign the message with</source>
+        <translation>Sterlingcoin osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2123,16 +2123,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Helium address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Helium osoitteen</translation>
+        <source>Sign the message to prove you own this Sterlingcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Sterlingcoin osoitteen</translation>
     </message>
     <message>
-        <source>The Helium address the message was signed with</source>
-        <translation>Helium osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Sterlingcoin address the message was signed with</source>
+        <translation>Sterlingcoin osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Helium address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Helium osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Sterlingcoin address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Sterlingcoin osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2214,8 +2214,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Helium Core</source>
-        <translation>Helium Ydin</translation>
+        <source>Sterlingcoin Core</source>
+        <translation>Sterlingcoin Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2230,8 +2230,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Helium Core developers</source>
-        <translation>Helium core kehittäjät</translation>
+        <source>The Sterlingcoin Core developers</source>
+        <translation>Sterlingcoin core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2534,7 +2534,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ZHeliumControlDialog</name>
+    <name>ZSterlingcoinControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
@@ -2591,8 +2591,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Helium Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Helium Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sterlingcoin Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Sterlingcoin Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

@@ -672,13 +672,13 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                 CBigNum bnSerial = spend.getCoinSerialNumber();
                 CKey key;
                 if (!pwallet->GetZerocoinKey(bnSerial, key)) {
-                    LogPrint("debug", "%s: failed to find zHLM with serial %s, unable to sign block\n", __func__, bnSerial.GetHex());
+                    LogPrint("debug", "%s: failed to find zSLG with serial %s, unable to sign block\n", __func__, bnSerial.GetHex());
                     continue;
                 }
 
                 //Sign block with the zPIV key
                 if (!SignBlockWithKey(*pblock, key)) {
-                    LogPrint("debug", "HeliumMiner(): Signing new block with zHLM key failed \n");
+                    LogPrint("debug", "HeliumMiner(): Signing new block with zSLG key failed \n");
                     continue;
                 }
             } else if (!SignBlock(*pblock, *pwallet)) {

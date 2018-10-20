@@ -885,7 +885,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
             ui->labelCoinControlChangeLabel->setText("");
         } else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Helium address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Sterlingcoin address"));
         } else // Valid address
         {
             CPubKey pubkey;
