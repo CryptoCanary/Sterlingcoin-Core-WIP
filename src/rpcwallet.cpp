@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2014-2018 The Sterlingcoin developers
 
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -3286,7 +3287,7 @@ UniValue setzhlmseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 1)
         throw runtime_error(
-            "setzhlmseed \"seed\"\n"
+            "setzslgseed \"seed\"\n"
             "\nSet the wallet's deterministic zSLG seed to a specific value.\n" +
             HelpRequiringPassphrase() + "\n"
 
@@ -3297,8 +3298,8 @@ UniValue setzhlmseed(const UniValue& params, bool fHelp)
             "\"success\" : b,  (boolean) Whether the seed was successfully set.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("setzhlmseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5") +
-            HelpExampleRpc("setzhlmseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5"));
+            HelpExampleCli("setzslgseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5") +
+            HelpExampleRpc("setzslgseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5"));
 
     EnsureWalletIsUnlocked();
 
@@ -3320,7 +3321,7 @@ UniValue getzhlmseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || !params.empty())
         throw runtime_error(
-            "getzhlmseed\n"
+            "getzslgseed\n"
             "\nCheck archived zSLG list to see if any mints were added to the blockchain.\n" +
             HelpRequiringPassphrase() + "\n"
 
@@ -3328,7 +3329,7 @@ UniValue getzhlmseed(const UniValue& params, bool fHelp)
             "\"seed\" : s,  (string) The deterministic zSLG seed.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("getzhlmseed", "") + HelpExampleRpc("getzhlmseed", ""));
+            HelpExampleCli("getzslgseed", "") + HelpExampleRpc("getzslgseed", ""));
 
     EnsureWalletIsUnlocked();
 
@@ -3393,7 +3394,7 @@ UniValue generatemintlist(const UniValue& params, bool fHelp)
 UniValue dzhlmstate(const UniValue& params, bool fHelp) {
     if (fHelp || params.size() != 0)
         throw runtime_error(
-                "dzhlmstate\n"
+                "dzslgstate\n"
                         "\nThe current state of the mintpool of the deterministic zSLG wallet.\n" +
                 HelpRequiringPassphrase() + "\n"
 
@@ -3404,7 +3405,7 @@ UniValue dzhlmstate(const UniValue& params, bool fHelp) {
     UniValue obj(UniValue::VOBJ);
     int nCount, nCountLastUsed;
     zwallet->GetState(nCount, nCountLastUsed);
-    obj.push_back(Pair("dzhlm_count", nCount));
+    obj.push_back(Pair("dzslg_count", nCount));
     obj.push_back(Pair("mintpool_count", nCountLastUsed));
 
     return obj;
@@ -3445,7 +3446,7 @@ UniValue searchdzhlm(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 3)
         throw runtime_error(
-            "searchdzhlm\n"
+            "searchdzslg\n"
             "\nMake an extended search for deterministically generated zSLG that have not yet been recognized by the wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
@@ -3455,7 +3456,7 @@ UniValue searchdzhlm(const UniValue& params, bool fHelp)
             "3. \"threads\"     (numeric) How many threads should this operation consume.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("searchdzhlm", "1, 100, 2") + HelpExampleRpc("searchdzhlm", "1, 100, 2"));
+            HelpExampleCli("searchdzslg", "1, 100, 2") + HelpExampleRpc("searchdzslg", "1, 100, 2"));
 
     EnsureWalletIsUnlocked();
 
