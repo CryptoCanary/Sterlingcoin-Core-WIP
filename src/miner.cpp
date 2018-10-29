@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2014-2018 The Sterlingcoin developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -40,7 +41,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// HeliumMiner
+// SterlingcoinMiner
 //
 
 //
@@ -558,7 +559,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("HeliumMiner : generated block is stale");
+            return error("SterlingcoinMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -578,7 +579,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     if (!ProcessNewBlock(state, NULL, pblock)) {
         if (pblock->IsZerocoinStake())
             pwalletMain->zpivTracker->RemovePending(pblock->vtx[1].GetHash());
-        return error("HeliumMiner : ProcessNewBlock, block not accepted");
+        return error("SterlingcoinMiner : ProcessNewBlock, block not accepted");
     }
 
     for (CNode* node : vNodes) {
@@ -596,9 +597,9 @@ int nMintableLastCheck = 0;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrint("debug", "HeliumMiner started\n");
+    LogPrint("debug", "SterlingcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("helium-miner");
+    RenameThread("-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -649,23 +650,23 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         unsigned int nTransactionsUpdatedLast = mempool.GetTransactionsUpdated();
         CBlockIndex* pindexPrev = chainActive.Tip();
         if (!pindexPrev) {
-            LogPrint("debug", "HeliumMiner bailing, no pindexPrev\n");
+            LogPrint("debug", "SterlingcoinMiner bailing, no pindexPrev\n");
             continue;
         }
         unique_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey, pwallet, fProofOfStake));
         if (!pblocktemplate.get()) {
-            LogPrint("debug", "HeliumMiner bailing, no pblocktemplate got\n");
+            LogPrint("debug", "SterlingcoinMiner bailing, no pblocktemplate got\n");
             continue;
         } else {
-            LogPrint("debug", "HeliumMiner proceeding with pblocktemplate.\n");
+            LogPrint("debug", "SterlingcoinMiner proceeding with pblocktemplate.\n");
         }
         CBlock* pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrint("debug", "HeliumMiner skipping PoS section 4\n");
+        LogPrint("debug", "SterlingcoinMiner skipping PoS section 4\n");
         //Stake miner main
         if (fProofOfStake) {
-            LogPrint("debug", "HeliumMiner : proof-of-stake block found %s \n", pblock->GetHash().ToString().c_str());
+            LogPrint("debug", "SterlingcoinMiner : proof-of-stake block found %s \n", pblock->GetHash().ToString().c_str());
             if (pblock->IsZerocoinStake()) {
                 //Find the key associated with the zerocoin that is being staked
                 libzerocoin::CoinSpend spend = TxInToZerocoinSpend(pblock->vtx[1].vin[0]);
@@ -678,15 +679,15 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 
                 //Sign block with the zPIV key
                 if (!SignBlockWithKey(*pblock, key)) {
-                    LogPrint("debug", "HeliumMiner(): Signing new block with zSLG key failed \n");
+                    LogPrint("debug", "SterlingcoinMiner(): Signing new block with zSLG key failed \n");
                     continue;
                 }
             } else if (!SignBlock(*pblock, *pwallet)) {
-                LogPrint("debug", "HeliumMiner(): Signing new block with UTXO key failed \n");
+                LogPrint("debug", "SterlingcoinMiner(): Signing new block with UTXO key failed \n");
                 continue;
             }
 
-            LogPrint("debug", "HeliumMiner : proof-of-stake block was signed %s \n", pblock->GetHash().ToString().c_str());
+            LogPrint("debug", "SterlingcoinMiner : proof-of-stake block was signed %s \n", pblock->GetHash().ToString().c_str());
             SetThreadPriority(THREAD_PRIORITY_NORMAL);
             ProcessBlockFound(pblock, *pwallet, reservekey);
             SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -694,7 +695,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrint("debug", "Running HeliumMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrint("debug", "Running SterlingcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -702,7 +703,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         //
         int64_t nStart = GetTime();
         uint256 hashTarget = uint256().SetCompact(pblock->nBits);
-        LogPrint("debug", "Running HeliumMiner with hashTarget %0x\n", hashTarget.GetCompact());
+        LogPrint("debug", "Running SterlingcoinMiner with hashTarget %0x\n", hashTarget.GetCompact());
         while (true) {
             unsigned int nHashesDone = 0;
 
@@ -713,7 +714,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                 if (hash <= hashTarget) {
                     // Found a solution
                     SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                    LogPrint("debug", "HeliumMiner:\n");
+                    LogPrint("debug", "SterlingcoinMiner:\n");
                     LogPrint("debug", "proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                     ProcessBlockFound(pblock, *pwallet, reservekey);
                     SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -785,12 +786,12 @@ void static ThreadBitcoinMiner(void* parg)
         BitcoinMiner(pwallet, false);
         boost::this_thread::interruption_point();
     } catch (std::exception& e) {
-        LogPrint("debug", "ThreadBitcoinMiner() exception");
+        LogPrint("debug", "ThreadSterlingcoinMiner() exception");
     } catch (...) {
-        LogPrint("debug", "ThreadHeliumMiner() exception");
+        LogPrint("debug", "ThreadSterlingcoinMiner() exception");
     }
 
-    LogPrint("debug", "ThreadHeliumMiner exiting\n");
+    LogPrint("debug", "ThreadSterlingcoinMiner exiting\n");
 }
 
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)

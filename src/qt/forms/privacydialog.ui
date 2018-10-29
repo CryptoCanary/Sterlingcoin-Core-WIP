@@ -191,7 +191,7 @@
                         <item>
                          <widget class="QLabel" name="labelzPIVSyncStatus">
                           <property name="toolTip">
-                           <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Helium network after a connection is established, but this process has not completed yet.</string>
+                           <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Sterlingcoin network after a connection is established, but this process has not completed yet.</string>
                           </property>
                           <property name="styleSheet">
                            <string notr="true">QLabel { color: red; }</string>
@@ -1594,8 +1594,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
                            <string>Show the current status of automatic zSLG minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to helium.conf
-- disable: add 'enablezeromint=0' to helium.conf
+- enable: add 'enablezeromint=1' to slg.conf
+- disable: add 'enablezeromint=0' to slg.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zSLG

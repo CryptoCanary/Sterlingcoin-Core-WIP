@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2014-2018 The Sterlingcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,7 +54,7 @@ using namespace std;
 using namespace libzerocoin;
 
 #if defined(NDEBUG)
-#error "Helium cannot be compiled without assertions."
+#error "Sterlingcoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -2404,7 +2405,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("helium-scriptch");
+    RenameThread("sterlingcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -3971,6 +3972,7 @@ bool CheckWork(const CBlock block, CBlockIndex* const pindexPrev)
     unsigned int nBitsRequired = GetNextWorkRequired(pindexPrev, &block);
 
     /* FIXME: GJH PIVX-specific value */
+    // SLG STS
     if (block.IsProofOfWork() && (pindexPrev->nHeight + 1 <= 68589)) {
         double n1 = ConvertBitsToDouble(block.nBits);
         double n2 = ConvertBitsToDouble(nBitsRequired);
@@ -5414,14 +5416,15 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
 	// Banned versions moving forward - Chain switch at 0.14.7
-	if (pfrom->cleanSubVer == "/Helium Core:0.14.3/" ||
+	/* SLG STS: Not needed for SLG
+        if (pfrom->cleanSubVer == "/Helium Core:0.14.3/" ||
             pfrom->cleanSubVer == "/Helium Core:0.14.4/" ||
             pfrom->cleanSubVer == "/Helium Core:0.14.5/" ||
             pfrom->cleanSubVer == "/Helium Core:0.14.6/") {
             LOCK(cs_main);
             Misbehaving(pfrom->GetId(), 100); // instantly ban them because they have bad block data
             return false;
-        }
+        } */
 	
         if (!vRecv.empty())
             vRecv >> pfrom->nStartingHeight;

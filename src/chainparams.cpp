@@ -59,7 +59,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (    0, uint256("0000033346b0b31697bcd178789fe1d6d10f96a7fd46d74fbf647d5ea3757348"))
+    (    0, uint256("0001"))
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -117,12 +117,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x0f;
-        pchMessageStart[1] = 0x0a;
-        pchMessageStart[2] = 0xc0;
-        pchMessageStart[3] = 0xe0;
+        pchMessageStart[0] = 0x13;
+        pchMessageStart[1] = 0x0c;
+        pchMessageStart[2] = 0x07;
+        pchMessageStart[3] = 0x18;
         vAlertPubKey = ParseHex("0x"); // Disabled
-        nDefaultPort = 9009;
+        nDefaultPort = 9127;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Sterlingcoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210240;
         nMaxReorganizationDepth = 100;
@@ -153,7 +153,7 @@ public:
         nEnforceNewSporkKey = 1537963200; // (PIVX: 1525158000) //!> Sporks signed after (GMT): Wednesday, September 26,2018 12:00 PM must use the new spork key
         nRejectOldSporkKey = 1537966800; // (PIVX: 1527811200) //!> Fully reject old spork key after (GMT): Wednesday, September 26,2018 12:00 PM
 
-        const char* pszTimestamp = "Bitcoin Block #540723:  000000000000000000200b9c401b3022de17cd305ba6ef9ce5bade07f9f5ebe5";
+        const char* pszTimestamp = "Bitcoin Block #547774:  00000000000000000015bd76a6dee7b750ac6bab2c5283ee279571f4d341affe";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -197,26 +197,24 @@ public:
             assert(hashGenesisBlock == uint256("0x0000033346b0b31697bcd178789fe1d6d10f96a7fd46d74fbf647d5ea3757348"));
             assert(genesis.hashMerkleRoot == uint256("0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd"));
         }
-        // Mainnet --- nonce: 6846 time: 1535104494 hash: 0x0000033346b0b31697bcd178789fe1d6d10f96a7fd46d74fbf647d5ea3757348 merklehash: 0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd
+        // Mainnet --- nonce:  time:  hash: merklehash:
 
-        vSeeds.push_back(CDNSSeedData("knout", "dnsseed.helium.cl"));
-        vSeeds.push_back(CDNSSeedData("seed1", "s1.heliumcoin.info"));
-	vSeeds.push_back(CDNSSeedData("seed2", "s2.heliumcoin.info"));
-	vSeeds.push_back(CDNSSeedData("seed3", "s3.heliumcoin.info"));
-	vSeeds.push_back(CDNSSeedData("seed4", "s4.heliumcoin.info"));
-        vSeeds.push_back(CDNSSeedData("seed5", "s5.heliumcoin.info"));
+        vSeeds.push_back(CDNSSeedData("seed1", "seed1.sterlingcoin.org"));
+	vSeeds.push_back(CDNSSeedData("seed2", "seed2.sterlingcoin.org"));
+	vSeeds.push_back(CDNSSeedData("seed3", "seed3.sterlingcoin.org"));
+	vSeeds.push_back(CDNSSeedData("seed4", "seed4.sterlingcoin.org"));
 	
         // Sterlingcoin addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
-        // Helium script addresses start with '3'
+        // Sterlingcoin script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        // Helium private keys start with '7' (uncompressed) or 'V' (compressed)
+        // Sterlingcoin private keys start with '7' (uncompressed) or 'V' (compressed)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,191);
-        // Helium BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Sterlingcoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Helium BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Sterlingcoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Helium BIP44 coin type (pending BIP44-capable wallet, use Bitcoin type)
+        // Sterlingcoin BIP44 coin type (pending BIP44-capable wallet, use Bitcoin type)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0xe2).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -234,7 +232,7 @@ public:
         strSporkKey = "0429929bc9edbbdbee4830f004d0265608fbcc4caa9feff1fe58ff97354ddcf125b1c1636663d3f447d6c29d7b04bcb6fc492d2955c567be65ecb63fa2cbe2ce36";
         strSporkKeyOld = "04beb92bb57470a4e6b011a291026c8cb6ce59c20b36ae5128d88b723c198443cb35cb2609eb9054f9fc49aa9f49257026cd1a09afb3fd7e1429086ab708ffb482";
         strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
-        nStartMasternodePayments = 1527634800; // 2018-05-30 00:00:00
+        nStartMasternodePayments = 1546300800; // 2019-01-01 00:00:00
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
@@ -271,25 +269,25 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0xf0;
-        pchMessageStart[1] = 0xa0;
-        pchMessageStart[2] = 0x0c;
-        pchMessageStart[3] = 0x0e;
+        pchMessageStart[0] = 0x13;
+        pchMessageStart[1] = 0x0c;
+        pchMessageStart[2] = 0x07;
+        pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("");
-        bnProofOfWorkLimit = ~uint256(0) >> 1; // 0x207fffff, Helium testnet starting difficulty
+        bnProofOfWorkLimit = ~uint256(0) >> 1; // 0x207fffff, Sterlingcoin testnet starting difficulty
         nSubsidyHalvingInterval = 210240;
-        nDefaultPort = 19009;
+        nDefaultPort = 19127;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Helium: 1 day
-        nTargetSpacing = 60;  // Helium: 1 minute
+        nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
+        nTargetSpacing = 60;  // Sterlingcoin: 1 minute
         nLastPOWBlock = 400;
         nMaturity = 15;
         nMasternodeCountDrift = 2;
         // nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 1000000 * COIN;
         nZerocoinStartHeight = 999999999;
         nZerocoinStartTime = 1530801782;
         // nBlockEnforceSerialRange = 0; //Enforce serial range starting this block
@@ -336,27 +334,25 @@ public:
             assert(hashGenesisBlock == uint256("0x0000049f035ee1942b9d3dd10965e7e07929aeaadd2c8855107dfeed05645d3f"));
             assert(genesis.hashMerkleRoot == uint256("0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd"));
         }
-        // Testnet --- nonce: 311676 time: 1535103494 hash: 0x0000049f035ee1942b9d3dd10965e7e07929aeaadd2c8855107dfeed05645d3f merklehash: 0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd
+        // Testnet --- nonce:  time:  hash: merklehash:
 
         vFixedSeeds.clear();
         vSeeds.clear();
 	
-        vSeeds.push_back(CDNSSeedData("heliumlabs", "seed.heliumlabs.org"));
-        vSeeds.push_back(CDNSSeedData("Spread", "node.heliumcha.in"));
-	vSeeds.push_back(CDNSSeedData("Kserv", "149.28.242.177"));
-	vSeeds.push_back(CDNSSeedData("Xojserv", "45.63.83.41"));
+        vSeeds.push_back(CDNSSeedData("ssed1", "seed1.sterlingcoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed2", "seed2.sterlingcoin.org"));
 
         // Testnet Sterlingcoin addresses start with 'm' or 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        // Testnet Helium script addresses start with '2'
+        // Testnet Sterlingcoin script addresses start with '2'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
         // Testnet private keys start with '9' (uncompressed) or 'c' (compressed)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Testnet Helium BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Sterlingcoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Helium BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Sterlingcoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Helium BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Sterlingcoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -373,7 +369,7 @@ public:
         strSporkKey = "0429929bc9edbbdbee4830f004d0265608fbcc4caa9feff1fe58ff97354ddcf125b1c1636663d3f447d6c29d7b04bcb6fc492d2955c567be65ecb63fa2cbe2ce36";
         strSporkKeyOld = "04beb92bb57470a4e6b011a291026c8cb6ce59c20b36ae5128d88b723c198443cb35cb2609eb9054f9fc49aa9f49257026cd1a09afb3fd7e1429086ab708ffb482";
         strObfuscationPoolDummyAddress = "m57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
-        nStartMasternodePayments = 1527634800; //30th May 2018 00:00:00
+        nStartMasternodePayments = 1541030400; //1st Nov 2018 00:00:00
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
     }
@@ -394,17 +390,17 @@ public:
     {
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0xf0;
-        pchMessageStart[1] = 0x0a;
-        pchMessageStart[2] = 0xc0;
-        pchMessageStart[3] = 0x0e;
+        pchMessageStart[0] = 0x13;
+        pchMessageStart[1] = 0x0c;
+        pchMessageStart[2] = 0x07;
+        pchMessageStart[3] = 0x12;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Helium: 1 day
-        nTargetSpacing = 60;  // Helium: 1 minute
+        nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
+        nTargetSpacing = 60;  // Sterlingcoin: 1 minute
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nDefaultPort = 19004;
 
@@ -442,7 +438,7 @@ public:
             assert(hashGenesisBlock == uint256("0x73abf6904e8a758c31d715d0c2bf8b36b86403a35bda369ec2fbcac8c2469c4d"));
             assert(genesis.hashMerkleRoot == uint256("0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd"));
         }
-        // Regtestnet --- nonce: 3 time: 1535104494 hash: 0x73abf6904e8a758c31d715d0c2bf8b36b86403a35bda369ec2fbcac8c2469c4d merklehash: 0xedee755717c4de66ce52056e36ae0f6e9f0269667fd8a06e3c5367588cbfadbd
+        // Regtestnet --- nonce:  time:  hash: merklehash:
 
         if (regenerate)
             exit(0);

@@ -354,7 +354,7 @@
        <item row="16" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the Helium debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the Sterlingcoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -1326,7 +1326,7 @@
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="wallet_customzhlmbackuppath_label">
+        <widget class="QLabel" name="wallet_customzslgbackuppath_label">
          <property name="text">
           <string>Custom zSLG Backup Path:</string>
          </property>
@@ -1336,7 +1336,7 @@
         </widget>
        </item>
        <item row="4" column="1" colspan="3">
-        <widget class="QLabel" name="wallet_customzhlmbackuppath">
+        <widget class="QLabel" name="wallet_customzslgbackuppath">
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>

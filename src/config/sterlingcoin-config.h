@@ -1,5 +1,5 @@
-/* src/config/bitcoin-config.h.  Generated from bitcoin-config.h.in by configure.  */
-/* src/config/bitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/sterlingcoin-config.h.  Generated from sterlingcoin-config.h.in by configure.  */
+/* src/config/sterlingcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BITCOIN_CONFIG_H
 
@@ -18,10 +18,10 @@
 #define CLIENT_VERSION_MAJOR 0
 
 /* Minor version */
-#define CLIENT_VERSION_MINOR 15
+#define CLIENT_VERSION_MINOR 0
 
 /* Build revision */
-#define CLIENT_VERSION_REVISION 2
+#define CLIENT_VERSION_REVISION 1
 
 /* Version is release */
 #define COPYRIGHT_YEAR 2018
@@ -284,22 +284,22 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.heliumchain.org"
+#define PACKAGE_BUGREPORT "sterlingcoin.org"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Helium Core"
+#define PACKAGE_NAME "Sterlingcoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Helium Core 0.15.2"
+#define PACKAGE_STRING "Sterlingcoin Core 0.0.1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "helium"
+#define PACKAGE_TARNAME "sterlingcoin"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.15.2"
+#define PACKAGE_VERSION "0.0.1"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */

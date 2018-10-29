@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoin-config.h"
+#include "config/sterlingcoin-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -95,7 +95,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("helium-core", psz).toStdString();
+    return QCoreApplication::translate("sterlingcoin-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -197,7 +197,7 @@ private:
     void handleRunawayException(std::exception* e);
 };
 
-/** Main Helium application object */
+/** Main Sterlingcoin application object */
 class BitcoinApplication : public QApplication
 {
     Q_OBJECT
@@ -480,7 +480,7 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // Helium: URIs or payment requests:
+        // Sterlingcoin: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
             window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -502,7 +502,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString& message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Helium can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Sterlingcoin can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 
@@ -580,7 +580,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse helium.conf
+    /// 6. Determine availability of data directory and parse slg.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("Sterlingcoin Core"),
@@ -637,7 +637,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // helium: links repeatedly have their payment requests routed to this process:
+    // sterlingcoin: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 
