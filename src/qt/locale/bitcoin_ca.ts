@@ -1310,7 +1310,7 @@
     <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

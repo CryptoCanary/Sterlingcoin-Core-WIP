@@ -594,8 +594,8 @@
         <translation>Enviar moedas para um endereço Sterlingcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e helium: URIs)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e sterlingcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (helium.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (sterlingcoin.conf). </translation>
     </message>
 </context>
 <context>
@@ -1591,9 +1591,9 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/helium-project/helium-project-translations</translation>
+https://Sterlingcoin.org</translation>
     </message>
     <message>
         <source>Connect to the Sterlingcoin network through a SOCKS5 proxy.</source>
@@ -3412,7 +3412,7 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>

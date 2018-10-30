@@ -591,8 +591,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Skicka mynt till en Sterlingcoin adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och helium: URls)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och sterlingcoin: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -606,8 +606,8 @@
         <translation>Odeslat platbuna Sterlingcoin adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a helium: URIs)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a sterlingcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (helium.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (sterlingcoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -2376,7 +2376,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

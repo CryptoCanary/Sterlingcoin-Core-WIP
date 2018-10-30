@@ -590,8 +590,8 @@
         <translation>送出錢幣到 Sterlingcoin 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 helium 位址)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 sterlingcoin 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -974,6 +974,6 @@
     <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     </context>
 </TS>

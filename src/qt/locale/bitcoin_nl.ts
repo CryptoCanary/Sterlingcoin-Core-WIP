@@ -602,7 +602,7 @@
         <translation>Verstuur munten naar een Sterlingcoin adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Vraag betaling aan (genereert QR-codes en Sterlingcoin: URI's)</translation>
     </message>
     <message>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (helium.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (sterlingcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -2764,7 +2764,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>

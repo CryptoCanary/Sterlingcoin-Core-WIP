@@ -610,8 +610,8 @@
         <translation>An eine Sterlingcoin-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und helium: URIs)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und sterlingcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -848,8 +848,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "helium.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "sterlingcoin.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1698,9 +1698,9 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung hier bei:
-https://www.transifex.com/helium-project/helium-project-translations</translation>
+https://Sterlingcoin.org</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1969,7 +1969,7 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
         <translation>Zahlungsaufforderungadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start helium: click-to-pay handler</source>
+        <source>Cannot start sterlingcoin: click-to-pay handler</source>
         <translation>Kann Sterlingcoin nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
@@ -4305,7 +4305,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>

@@ -192,6 +192,6 @@
     <name>ZSterlingcoinControlDialog</name>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     </context>
 </TS>

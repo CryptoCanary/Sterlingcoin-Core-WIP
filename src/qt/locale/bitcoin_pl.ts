@@ -526,8 +526,8 @@
         <translation>Wyślij monety do adresu Sterlingcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i helium:URI)</translation>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i sterlingcoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1217,9 +1217,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/helium-project/helium-project-translations </translation>
+https://Sterlingcoin.org </translation>
     </message>
     <message>
         <source>Connect to the Sterlingcoin network through a SOCKS5 proxy.</source>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/helium-project/helium-project-translations </translati
     </message>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

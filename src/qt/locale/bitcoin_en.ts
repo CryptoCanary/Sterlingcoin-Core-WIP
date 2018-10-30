@@ -821,7 +821,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1127,7 +1127,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2409,7 +2409,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2819,13 +2819,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in helium.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in sterlingcoin.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in helium.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in sterlingcoin.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2865,7 +2865,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start helium: click-to-pay handler</source>
+        <source>Cannot start sterlingcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5961,9 +5961,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
-        <location filename="../heliumstrings.cpp" line="+15"/>
+        <location filename="../sterlingcoinstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -6194,10 +6194,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>To use heliumd, or the -server option to helium-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sterlingcoind, or the -server option to sterlingcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=heliumrpc
+rpcuser=sterlingcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

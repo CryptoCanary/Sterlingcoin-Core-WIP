@@ -610,7 +610,7 @@
         <translation>Enviar coins a una dirección Sterlingcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -833,8 +833,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (helium.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (sterlingcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1687,9 +1687,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/helium-project/helium-project-translations</translation>
+https://Sterlingcoin.org</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1934,8 +1934,8 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start helium: click-to-pay handler</source>
-        <translation>No se puede iniciar helium: módulo click-to-pay</translation>
+        <source>Cannot start sterlingcoin: click-to-pay handler</source>
+        <translation>No se puede iniciar sterlingcoin: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Sterlingcoin address or malformed URI parameters.</source>
@@ -3812,7 +3812,7 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4002,10 +4002,10 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use heliumd, or the -server option to helium-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sterlingcoind, or the -server option to sterlingcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=heliumrpc
+rpcuser=sterlingcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4013,10 +4013,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
 </source>
-        <translation>Para usar heliumd, o la opción -server de helium-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar sterlingcoind, o la opción -server de sterlingcoin-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=helium
+rpcuser=sterlingcoin
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.

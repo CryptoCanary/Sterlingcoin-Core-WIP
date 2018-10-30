@@ -606,7 +606,7 @@
         <translation>Send mønter til en Sterlingcoin adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and helium: URIs)</source>
+        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og Sterlingcoin URL)</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (helium.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (helium.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (sterlingcoin.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (sterlingcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1667,9 +1667,9 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/helium-project/helium-project-translations</source>
+https://Sterlingcoin.org</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/helium-project/helium-project-translations</translation>
+https://Sterlingcoin.org</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1894,7 +1894,7 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start helium: click-to-pay handler</source>
+        <source>Cannot start sterlingcoin: click-to-pay handler</source>
         <translation>Kan ikke starte Sterlingcoin "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -3772,7 +3772,7 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>helium-core</name>
+    <name>Sterlingcoin-Core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -3963,10 +3963,10 @@ https://www.transifex.com/helium-project/helium-project-translations</translatio
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use heliumd, or the -server option to helium-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sterlingcoind, or the -server option to sterlingcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=heliumrpc
+rpcuser=sterlingcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3974,10 +3974,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
 </source>
-        <translation>For at bruge heliumd eller -server muligheden sammen med helium-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge sterlingcoind eller -server muligheden sammen med sterlingcoin-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=heliumrpc
+Rpcuser=sterlingcoinrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
