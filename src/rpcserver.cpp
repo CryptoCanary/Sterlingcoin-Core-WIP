@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2018-2018 The Sterlingcoin developers
 
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -354,36 +355,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* PIVX features */
-        {"helium", "masternode", &masternode, true, true, false},
-        {"helium", "listmasternodes", &listmasternodes, true, true, false},
-        {"helium", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"helium", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"helium", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"helium", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"helium", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"helium", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"helium", "masternodedebug", &masternodedebug, true, true, false},
-        {"helium", "startmasternode", &startmasternode, true, true, false},
-        {"helium", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"helium", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"helium", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"helium", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"helium", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"helium", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"helium", "mnbudget", &mnbudget, true, true, false},
-        {"helium", "preparebudget", &preparebudget, true, true, false},
-        {"helium", "submitbudget", &submitbudget, true, true, false},
-        {"helium", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"helium", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"helium", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"helium", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"helium", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"helium", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"helium", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"helium", "checkbudgets", &checkbudgets, true, true, false},
-        {"helium", "mnsync", &mnsync, true, true, false},
-        {"helium", "spork", &spork, true, true, false},
-        {"helium", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"sterlingcoin", "masternode", &masternode, true, true, false},
+        {"sterlingcoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"sterlingcoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"sterlingcoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"sterlingcoin", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"sterlingcoin", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"sterlingcoin", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"sterlingcoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"sterlingcoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"sterlingcoin", "startmasternode", &startmasternode, true, true, false},
+        {"sterlingcoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"sterlingcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"sterlingcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"sterlingcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"sterlingcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"sterlingcoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"sterlingcoin", "mnbudget", &mnbudget, true, true, false},
+        {"sterlingcoin", "preparebudget", &preparebudget, true, true, false},
+        {"sterlingcoin", "submitbudget", &submitbudget, true, true, false},
+        {"sterlingcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"sterlingcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"sterlingcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"sterlingcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"sterlingcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"sterlingcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"sterlingcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"sterlingcoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"sterlingcoin", "mnsync", &mnsync, true, true, false},
+        {"sterlingcoin", "spork", &spork, true, true, false},
+        {"sterlingcoin", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -618,7 +619,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> helium-cli " + methodname + " " + args + "\n";
+    return "> sterlingcoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

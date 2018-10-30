@@ -19,13 +19,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Helium"
-            VALUE "FileDescription",    "Sterlingcoin Core (OSS GUI client for Helium)"
+            VALUE "CompanyName",        "Sterlingcoin"
+            VALUE "FileDescription",    "Sterlingcoin Core (OSS GUI client for Sterlingcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "helium-qt"
+            VALUE "InternalName",       "sterlingcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "helium-qt.exe"
+            VALUE "OriginalFilename",   "sterlingcoin-qt.exe"
             VALUE "ProductName",        "Sterlingcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
