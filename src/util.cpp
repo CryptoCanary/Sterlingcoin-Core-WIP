@@ -427,13 +427,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\SLG
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\SLG
-// Mac: ~/Library/Application Support/SLG
-// Unix: ~/.slg
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\SterlingcoinCore
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\SterlingcoinCore
+// Mac: ~/Library/Application Support/SterlingcoinCore
+// Unix: ~/.sterlingcoincore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "SLG";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "SterlingcoinCore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -445,10 +445,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "SLG";
+    return pathRet / "SterlingcoinCore";
 #else
     // Unix
-    return pathRet / ".slg";
+    return pathRet / ".sterlingcoincore";
 #endif
 #endif
 }
@@ -495,7 +495,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "slg.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "sterlingcoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
