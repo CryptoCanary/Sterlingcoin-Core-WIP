@@ -185,7 +185,7 @@ bool Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the slg.conf file in the default data directory
+     * override -datadir in the sterlingcoin.conf file in the default data directory
      * (to be consistent with daemon behavior)
      */
     if (dataDir != getDefaultDataDirectory())
