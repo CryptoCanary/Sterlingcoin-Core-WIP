@@ -1,60 +1,60 @@
-Sample init scripts and service configuration for heliumd
-==========================================================
+Sample init scripts and service configuration for sterlingcoind
+===============================================================
 
 Sample scripts and configuration files for systemd, Upstart and OpenRC
 can be found in the contrib/init folder.
 
-    contrib/init/heliumd.service:    systemd service unit configuration
-    contrib/init/heliumd.openrc:     OpenRC compatible SysV style init script
-    contrib/init/heliumd.openrcconf: OpenRC conf.d file
-    contrib/init/heliumd.conf:       Upstart service configuration file
-    contrib/init/heliumd.init:       CentOS compatible SysV style init script
+    contrib/init/sterlingcoind.service:    systemd service unit configuration
+    contrib/init/sterlingcoind.openrc:     OpenRC compatible SysV style init script
+    contrib/init/sterlingcoind.openrcconf: OpenRC conf.d file
+    contrib/init/sterlingcoind.conf:       Upstart service configuration file
+    contrib/init/sterlingcoind.init:       CentOS compatible SysV style init script
 
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "helium" user
+All three startup configurations assume the existence of a "sterlingcoin" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
 ---------------------------------
 
-At a bare minimum, heliumd requires that the rpcpassword setting be set
+At a bare minimum, sterlingcoind requires that the rpcpassword setting be set
 when running as a daemon.  If the configuration file does not exist or this
-setting is not set, heliumd will shutdown promptly after startup.
+setting is not set, sterlingcoind will shutdown promptly after startup.
 
 This password does not have to be remembered or typed as it is mostly used
-as a fixed token that heliumd and client programs read from the configuration
+as a fixed token that sterlingcoind and client programs read from the configuration
 file, however it is recommended that a strong and secure password be used
 as this password is security critical to securing the wallet should the
 wallet be enabled.
 
-If heliumd is run with "-daemon" flag, and no rpcpassword is set, it will
+If sterlingcoind is run with "-daemon" flag, and no rpcpassword is set, it will
 print a randomly generated suitable password to stderr.  You can also
 generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/helium/helium.conf
+Once you have a password in hand, set rpcpassword= in /etc/sterlingcoin/sterlingcoin.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/helium.conf.
+see contrib/debian/examples/sterlingcoin.conf.
 
 3. Paths
 ---------------------------------
 
 All three configurations assume several paths that might need to be adjusted.
 
-Binary:              /usr/bin/heliumd
-Configuration file:  /etc/helium/helium.conf
-Data directory:      /var/lib/heliumd
-PID file:            /var/run/heliumd/heliumd.pid (OpenRC and Upstart)
-                     /var/lib/heliumd/heliumd.pid (systemd)
+Binary:              /usr/bin/sterlingcoind
+Configuration file:  /etc/sterlingcoin/sterlingcoin.conf
+Data directory:      /var/lib/sterlingcoin
+PID file:            /var/run/sterlingcoind/sterlingcoind.pid (OpenRC and Upstart)
+                     /var/lib/sterlingcoind/sterlingcoind.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the helium user and group.  It is advised for security
+should all be owned by the sterlingcoin user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-helium user and group.  Access to helium-cli and other heliumd rpc clients
+sterlingcoin user and group.  Access to sterlingcoin-cli and other sterlingcoind rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration
@@ -66,19 +66,19 @@ Installing this .service file consists on just copying it to
 /usr/lib/systemd/system directory, followed by the command
 "systemctl daemon-reload" in order to update running systemd configuration.
 
-To test, run "systemctl start heliumd" and to enable for system startup run
-"systemctl enable heliumd"
+To test, run "systemctl start sterlingcoind" and to enable for system startup run
+"systemctl enable sterlingcoind"
 
 4b) OpenRC
 
-Rename heliumd.openrc to heliumd and drop it in /etc/init.d.  Double
+Rename sterlingcoind.openrc to sterlingcoind and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-"/etc/init.d/heliumd start" and configure it to run on startup with
-"rc-update add heliumd"
+"/etc/init.d/sterlingcoind start" and configure it to run on startup with
+"rc-update add sterlingcoind"
 
 4c) Upstart (for Debian/Ubuntu based distributions)
 
-Drop heliumd.conf in /etc/init.  Test by running "service heliumd start"
+Drop sterlingcoind.conf in /etc/init.  Test by running "service sterlingcoind start"
 it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
@@ -86,11 +86,11 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 
 4d) CentOS
 
-Copy heliumd.init to /etc/init.d/heliumd. Test by running "service heliumd start".
+Copy sterlingcoind.init to /etc/init.d/sterlingcoind. Test by running "service sterlingcoind start".
 
-Using this script, you can adjust the path and flags to the heliumd program by
-setting the HeliumD and FLAGS environment variables in the file
-/etc/sysconfig/heliumd. You can also use the DAEMONOPTS environment variable here.
+Using this script, you can adjust the path and flags to the sterlingcoind program by
+setting the sterlingcoind and FLAGS environment variables in the file
+/etc/sysconfig/sterlingcoind. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn
 -----------------------------------

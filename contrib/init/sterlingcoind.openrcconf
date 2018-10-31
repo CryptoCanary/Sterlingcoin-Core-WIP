@@ -1,0 +1,26 @@
+# /etc/conf.d/sterlingcoind: config file for /etc/init.d/sterlingcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sterlingcoin/sterlingcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sterlingcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sterlingcoind.pid"
+
+# Where to write pivxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sterlingcoind"
+
+# User and group to own pivxd process
+#BITCOIND_USER="sterlingcoin"
+#BITCOIND_GROUP="sterlingcoin"
+
+# Path to sterlingcoind executable
+#BITCOIND_BIN="/usr/bin/sterlingcoind"
+
+# Nice value to run sterlingcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
