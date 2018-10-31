@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/Sterlingcoin/SterlingcoinCore/contrib/gitian-descriptors/-detached-sigs.git"
+- "url": "https://github.com/Sterlingcoin/Sterlingcoin-Core/contrib/gitian-descriptors/-detached-sigs.git"
   "dir": "signature"
 files:
 - "sterlingcoin-osx-unsigned.tar.gz"

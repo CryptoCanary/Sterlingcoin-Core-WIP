@@ -75,9 +75,9 @@ Clone the git repositories for Sterlingcoin Core and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/Sterlingcoin/SterlingcoinCore
-git clone https://github.com/Sterlingcoin/SterlingcoinCore/contrib/gitian.sigs.git
-git clone https://github.comSterlingcoin/SterlingcoinCore/contrib/Sterlingcoin-detached-sigs.git
+git clone https://github.com/Sterlingcoin/Sterlingcoin-Core
+git clone https://github.com/Sterlingcoin/Sterlingcoin-Core/contrib/gitian.sigs.git
+git clone https://github.comSterlingcoin/Sterlingcoin-Core/contrib/Sterlingcoin-detached-sigs.git
 ```
 
 Setting up the Gitian image

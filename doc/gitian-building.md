@@ -51,7 +51,7 @@ Please refer to the following documents to set up the operating systems and Giti
 
 Non-Debian / Ubuntu, Manual and Offline Building
 ------------------------------------------------
-The instructions below use the automated script [gitian-build.py](https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/contrib/gitian-build.py) which only works in Debian/Ubuntu. For manual steps and instructions for fully offline signing, see [this guide](./gitian-building/gitian-building-manual.md).
+The instructions below use the automated script [gitian-build.py](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/contrib/gitian-build.py) which only works in Debian/Ubuntu. For manual steps and instructions for fully offline signing, see [this guide](./gitian-building/gitian-building-manual.md).
 
 MacOS code signing
 ------------------
@@ -104,7 +104,7 @@ gpg --output $VERSION-win-unsigned/$NAME/sterlingcoin-win-$BUILD-build.assert.si
 ```
 
 Make a PR (both the `.assert` and `.assert.sig` files) to the
-[Sterlingcoin/SterlingcoinCore/contrib/gitian.sigs](https://github.com/Sterlingcoin/SterlingcoinCore/contrib/gitian.sigs/) repository:
+[Sterlingcoin/Sterlingcoin-Core/contrib/gitian.sigs](https://github.com/Sterlingcoin/Sterlingcoin-Core/contrib/gitian.sigs/) repository:
 
 ```
 git checkout -b 0.1.0-not-codesigned

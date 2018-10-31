@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: https://Sterlingcoin.org
-Vcs-Git: git://github.com/Sterlingcoin/SterlingcoinCore
-Vcs-Browser: http://github.com/Sterlingcoin/SterlingcoinCore
+Vcs-Git: git://github.com/Sterlingcoin/Sterlingcoin-Core
+Vcs-Browser: http://github.com/Sterlingcoin/Sterlingcoin-Core
 
 Package: sterlingcoind
 Architecture: any

@@ -1,10 +1,10 @@
 Getting and building the inputs
 --------------------------------
 
-At this point you have two options, you can either use the automated script (found in [https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/contrib/gitian-build.py](https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/contrib/gitian-build.py), only works in Debian/Ubuntu) or you could manually do everything by following this guide.
+At this point you have two options, you can either use the automated script (found in [https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/contrib/gitian-build.py](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/contrib/gitian-build.py), only works in Debian/Ubuntu) or you could manually do everything by following this guide.
 If you are using the automated script, then run it with the `--setup` command. Afterwards, run it with the `--build` command (example: `contrib/gitian-build.py -b signer 0.15.0`). Otherwise ignore this.
 
-Follow the instructions in [https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/doc/release-process.md](https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/doc/release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
+Follow the instructions in [https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/doc/release-process.md](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/doc/release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
 in the Sterlingcoin repository under 'Fetch and create inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
@@ -14,7 +14,7 @@ Building Sterlingcoin Core
 ----------------
 
 To build Sterlingcoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
-Gitian builds' in [https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/doc/release-process.md](https://github.com/Sterlingcoin/SterlingcoinCore/blob/master/doc/release-process.md#setup-and-perform-gitian-builds) in the Sterlingcoin repository.
+Gitian builds' in [https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/doc/release-process.md](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/doc/release-process.md#setup-and-perform-gitian-builds) in the Sterlingcoin repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -33,7 +33,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/Sterlingcoin/SterlingcoinCore
+    From https://github.com/Sterlingcoin/Sterlingcoin-Core
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -59,7 +59,7 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/Sterlingcoin/SterlingcoinCore.git
+URL=https://github.com/Sterlingcoin/Sterlingcoin-Core.git
 COMMIT=2014_03_windows_unicode_path
 ./bin/gbuild --commit sterlingcoin=${COMMIT} --url sterlingcoin=${URL} ../SterlingcoinCore/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit sterlingcoin=${COMMIT} --url sterlingcoin=${URL} ../SterlingcoinCore/contrib/gitian-descriptors/gitian-win.yml
@@ -109,7 +109,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/Sterlingcoin/SterlingcoinCore/contrib/sterlingcoin-detached-sigs.git
+git clone https://github.com/Sterlingcoin/Sterlingcoin-Core/contrib/sterlingcoin-detached-sigs.git
 
 BTCPATH=/some/root/path/sterlingcoin
 SIGPATH=/some/root/path/sterlingcoin-detached-sigs

@@ -42,7 +42,7 @@ The following are developer notes on how to build Sterlingcoin on your native pl
 
 Development
 ---------------------
-The Pivx repo's [root README](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Sterlingcoin repo's [root README](https://github.com/Sterlingcoin/Sterlingcoin-Core/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
