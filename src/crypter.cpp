@@ -259,7 +259,7 @@ bool CCryptoKeyStore::Unlock(const CKeyingMaterial& vMasterKeyIn)
 
             uint256 nSeed;
             if (!GetDeterministicSeed(hashSeed, nSeed)) {
-                return error("Failed to read zPIV seed from DB. Wallet is probably corrupt.");
+                return error("Failed to read zSLG seed from DB. Wallet is probably corrupt.");
             }
             pwalletMain->zwalletMain->SetMasterSeed(nSeed, false);
         } else {
@@ -268,7 +268,7 @@ bool CCryptoKeyStore::Unlock(const CKeyingMaterial& vMasterKeyIn)
             CKey key;
             key.MakeNewKey(true);
             uint256 seed = key.GetPrivKey_256();
-            LogPrintf("%s: first run of zpiv wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
+            LogPrintf("%s: first run of zslg wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
             pwalletMain->zwalletMain->SetMasterSeed(seed, true);
             pwalletMain->zwalletMain->GenerateMintPool();
         }

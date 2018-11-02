@@ -59,19 +59,19 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (    0, uint256("00000c0e03b80841a25f0bd0e97821122045adcf334134387de072e76fd508bd"));
+    (    0, uint256("000007bf9d3b20a9b2ef722caf7bf1740cb729de37eb067e3f950f7a9b14e65d"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1538577068, // * UNIX timestamp of last checkpoint block
-    64410,      // * total number of transactions between genesis and last checkpoint
+    1535104494, // * UNIX timestamp of last checkpoint block
+    0,      // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256("000007223e12ec56ba7742fe0fa11d8cdf1ec2544203d004bb6f806b9d0d985c"));
+    (0, uint256("000001df13da5e688ae69246b88b6aa241cfdcbb684bdd9af85c86987734ef6b"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1535103494,
@@ -80,7 +80,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of
-    (0, uint256("21aeec89c65ea4e3847981da791f818834f95d51bde1bbfc81202837a5b39a2d"));
+    (0, uint256("28f3abcc83ae90d7b3088e5e9a690da8ab8548266096139392631aaaa52b7f73"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1535104494,
@@ -153,7 +153,7 @@ public:
         nEnforceNewSporkKey = 1537963200; // (PIVX: 1525158000) //!> Sporks signed after (GMT): Wednesday, September 26,2018 12:00 PM must use the new spork key
         nRejectOldSporkKey = 1537966800; // (PIVX: 1527811200) //!> Fully reject old spork key after (GMT): Wednesday, September 26,2018 12:00 PM
 
-        const char* pszTimestamp = "Bitcoin Block #547774:  00000000000000000015bd76a6dee7b750ac6bab2c5283ee279571f4d341affe";
+        const char* pszTimestamp = "Bitcoin Block #548367: 4315b2adb6c44e5992c57a37d3eca4d010c5e2b6af64b907fefd2993f2ec1de1";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -166,7 +166,7 @@ public:
         genesis.nVersion = 4;
         genesis.nTime = 1535104494;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 539189;
+        genesis.nNonce = 687423;
 
         hashGenesisBlock = genesis.GetHash();
         if (regenerate) {
@@ -194,15 +194,15 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x00000c0e03b80841a25f0bd0e97821122045adcf334134387de072e76fd508bd"));
-            assert(genesis.hashMerkleRoot == uint256("0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310"));
+            assert(hashGenesisBlock == uint256("0x000007bf9d3b20a9b2ef722caf7bf1740cb729de37eb067e3f950f7a9b14e65d"));
+            assert(genesis.hashMerkleRoot == uint256("0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22"));
         }
-        // Mainnet --- nonce: 539189 time: 1535104494 hash: 0x00000c0e03b80841a25f0bd0e97821122045adcf334134387de072e76fd508bd merklehash: 0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310
+        // Mainnet --- nonce: 687423 time: 1535104494 hash: 0x000007bf9d3b20a9b2ef722caf7bf1740cb729de37eb067e3f950f7a9b14e65d merklehash: 0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22
 
-        vSeeds.push_back(CDNSSeedData("seed1", "seed1.sterlingcoin.org"));
-	vSeeds.push_back(CDNSSeedData("seed2", "seed2.sterlingcoin.org"));
-	vSeeds.push_back(CDNSSeedData("seed3", "seed3.sterlingcoin.org"));
-	vSeeds.push_back(CDNSSeedData("seed4", "seed4.sterlingcoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1", "71.213.99.118"));
+	//vSeeds.push_back(CDNSSeedData("seed2", "seed2.sterlingcoin.org"));
+	//vSeeds.push_back(CDNSSeedData("seed3", "seed3.sterlingcoin.org"));
+	//vSeeds.push_back(CDNSSeedData("seed4", "seed4.sterlingcoin.org"));
 	
         // Sterlingcoin addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
@@ -229,8 +229,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0429929bc9edbbdbee4830f004d0265608fbcc4caa9feff1fe58ff97354ddcf125b1c1636663d3f447d6c29d7b04bcb6fc492d2955c567be65ecb63fa2cbe2ce36";
-        strSporkKeyOld = "04beb92bb57470a4e6b011a291026c8cb6ce59c20b36ae5128d88b723c198443cb35cb2609eb9054f9fc49aa9f49257026cd1a09afb3fd7e1429086ab708ffb482";
+        strSporkKey = "";
+        strSporkKeyOld = "";
         strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = 1546300800; // 2019-01-01 00:00:00
 
@@ -302,7 +302,7 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1535103494;
-        genesis.nNonce = 1382044;
+        genesis.nNonce = 199886;
 
         hashGenesisBlock = genesis.GetHash();
         if (regenerate) {
@@ -331,16 +331,16 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x000007223e12ec56ba7742fe0fa11d8cdf1ec2544203d004bb6f806b9d0d985c"));
-            assert(genesis.hashMerkleRoot == uint256("0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310"));
+            assert(hashGenesisBlock == uint256("0x000001df13da5e688ae69246b88b6aa241cfdcbb684bdd9af85c86987734ef6b"));
+            assert(genesis.hashMerkleRoot == uint256("0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22"));
         }
-        // Testnet --- nonce: 1382044 time: 1535103494 hash: 0x000007223e12ec56ba7742fe0fa11d8cdf1ec2544203d004bb6f806b9d0d985c merklehash: 0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310
+        // Testnet --- nonce: 199886 time: 1535103494 hash: 0x000001df13da5e688ae69246b88b6aa241cfdcbb684bdd9af85c86987734ef6b merklehash: 0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22
 
         vFixedSeeds.clear();
         vSeeds.clear();
 	
-        vSeeds.push_back(CDNSSeedData("ssed1", "seed1.sterlingcoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed2", "seed2.sterlingcoin.org"));
+        vSeeds.push_back(CDNSSeedData("tseed1", "71.213.99.118"));
+        //vSeeds.push_back(CDNSSeedData("tseed2", "71.213.99.118"));
 
         // Testnet Sterlingcoin addresses start with 'm' or 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
@@ -435,10 +435,10 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x21aeec89c65ea4e3847981da791f818834f95d51bde1bbfc81202837a5b39a2d"));
-            assert(genesis.hashMerkleRoot == uint256("0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310"));
+            assert(hashGenesisBlock == uint256("0x28f3abcc83ae90d7b3088e5e9a690da8ab8548266096139392631aaaa52b7f73"));
+            assert(genesis.hashMerkleRoot == uint256("0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22"));
         }
-        // Regtestnet --- nonce: 4 time: 1535104494 hash: 0x21aeec89c65ea4e3847981da791f818834f95d51bde1bbfc81202837a5b39a2d merklehash: 0xac05d9c359d8743fdb778cc31b50b969f6d596374234c1830f90ce1bf8923310
+        // Regtestnet --- nonce: 4 time: 1535104494 hash: 0x28f3abcc83ae90d7b3088e5e9a690da8ab8548266096139392631aaaa52b7f73 merklehash: 0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22
 
         if (regenerate)
             exit(0);
