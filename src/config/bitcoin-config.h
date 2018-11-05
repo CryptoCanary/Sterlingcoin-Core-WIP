@@ -12,10 +12,10 @@
 #define CLIENT_VERSION_BUILD 0
 
 /* Version is release */
-#define CLIENT_VERSION_IS_RELEASE false
+#define CLIENT_VERSION_IS_RELEASE true
 
 /* Major version */
-#define CLIENT_VERSION_MAJOR 0
+#define CLIENT_VERSION_MAJOR 14
 
 /* Minor version */
 #define CLIENT_VERSION_MINOR 1
@@ -284,7 +284,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "sterlingcoin.org"
+#define PACKAGE_BUGREPORT "www.sterlingcoin.org"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Sterlinogcoin Core"
@@ -296,7 +296,7 @@
 #define PACKAGE_TARNAME "sterlingcoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "sterlingcoin.org"
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.1.0"
