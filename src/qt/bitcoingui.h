@@ -209,9 +209,9 @@ private Q_SLOTS:
     /** Switch to masternode page */
     void gotoMasternodePage();
     /** Switch to privacy page */
-    void gotoReceiveCoinsPage();
-    /** Switch to receive coins page */
     void gotoPrivacyPage();
+    /** Switch to receive coins page */
+    void gotoReceiveCoinsPage();
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
 

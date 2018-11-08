@@ -877,6 +877,7 @@ void BitcoinGUI::gotoMultiSendDialog()
     if (walletFrame)
         walletFrame->gotoMultiSendDialog();
 }
+
 void BitcoinGUI::gotoBlockExplorerPage()
 {
     if (walletFrame) walletFrame->gotoBlockExplorerPage();
