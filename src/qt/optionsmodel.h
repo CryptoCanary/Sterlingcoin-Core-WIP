@@ -48,11 +48,11 @@ public:
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
         HideZeroBalances,    // bool
-        AnonymizeCoinAmount, //int
+        AnonymizeCoinAmount, // int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         StakeSplitThreshold, // int
-        OptionIDRowCount,
+        OptionIDRowCount,    // int
     };
 
     void Init();

@@ -397,8 +397,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Aktivnosti na privatnost za zPIV</translation>
+        <source>Privacy Actions for zSLG</source>
+        <translation>Aktivnosti na privatnost za zSLG</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
