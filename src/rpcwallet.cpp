@@ -1945,7 +1945,7 @@ UniValue encryptwallet(const UniValue& params, bool fHelp)
     // slack space in .dat files; that is bad if the old data is
     // unencrypted private keys. So:
     StartShutdown();
-    return "wallet encrypted; Helium Core server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
+    return "wallet encrypted; Sterlingcoin Core server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
 }
 
 UniValue lockunspent(const UniValue& params, bool fHelp)
@@ -2664,7 +2664,7 @@ UniValue mintzerocoin(const UniValue& params, bool fHelp)
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. amount      (numeric, required) Enter an amount of Helium to convert to zSLG\n"
+            "1. amount      (numeric, required) Enter an amount of Sterlingcoin to convert to zSLG\n"
             "2. utxos       (string, optional) A json array of objects.\n"
             "                   Each object needs the txid (string) and vout (numeric)\n"
             "  [\n"
