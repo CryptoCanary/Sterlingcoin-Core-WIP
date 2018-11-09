@@ -55,7 +55,7 @@ static const int MAX_URI_LENGTH = 255;
 #define EXPORT_IMAGE_SIZE 256
 
 /* Number of frames in spinner animation */
-#define SPINNER_FRAMES 35
+#define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Sterlingcoin"
 #define QAPP_ORG_DOMAIN "Sterlingcoin.org"
