@@ -191,8 +191,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <source>Unlock Sterlingcoin wallet</source>
+        <translation>Unlock Sterlingcoin wallet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -521,8 +521,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show general overview of wallet</source>
-        <translation>Show general overview of wallet</translation>
+        <source>Show general overview of Sterlingcoin wallet</source>
+        <translation>Show general overview of Sterlingcoin wallet</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -541,8 +541,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Browse transaction history</source>
-        <translation>Browse transaction history</translation>
+        <source>Browse your Sterlingcoin transaction history</source>
+        <translation>Browse your Sterlingcoin transaction history</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -582,8 +582,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show or hide the main Window</source>
-        <translation>Show or hide the main Window</translation>
+        <source>Show or hide the main Sterlingcoin window</source>
+        <translation>Show or hide the main Sterlingcoin window</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -592,8 +592,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Encrypt the private keys that belong to your wallet</translation>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
+        <translation>Encrypt the private keys that belong to your Sterlingcoin wallet</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -602,8 +602,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Backup wallet to another location</source>
-        <translation>Backup wallet to another location</translation>
+        <source>Backup Sterlingcoin wallet to another location</source>
+        <translation>Backup Sterlingcoin wallet to another location</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -612,8 +612,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Change the passphrase used for wallet encryption</translation>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <translation>Change the passphrase used for Sterlingcoin wallet encryption</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -622,8 +622,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <source>Unlock Sterlingcoin wallet</source>
+        <translation>Unlock Sterlingcoin wallet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -667,8 +667,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show network monitor</source>
-        <translation>Show network monitor</translation>
+        <source>Show Sterlingcoin network monitor</source>
+        <translation>Show Sterlingcoin network monitor</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -687,8 +687,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show wallet repair options</source>
-        <translation>Show wallet repair options</translation>
+        <source>Show Sterlingcoin wallet repair options</source>
+        <translation>Show Sterlingcoin wallet repair options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -702,8 +702,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show automatically created wallet backups</source>
-        <translation>Show automatically created wallet backups</translation>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
+        <translation>Show automatically created Sterlingcoin wallet backups</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -712,8 +712,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Show the list of used sending addresses and labels</translation>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
+        <translation>Show the list of used Sterlingcoin sending addresses and labels</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -722,8 +722,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Show the list of used receiving addresses and labels</translation>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
+        <translation>Show the list of used Sterlingcoin receiving addresses and labels</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -732,7 +732,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Create a new multisignature address and add it to this wallet</source>
+        <source>Create a new Sterlingcoin multisignature address and add it to this wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -742,7 +742,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Spend from a multisignature address</source>
+        <source>Spend from a Sterlingcoin multisignature address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -752,7 +752,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign with a multisignature address</source>
+        <source>Sign with a Sterlingcoin multisignature address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -821,7 +821,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -836,7 +836,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -896,7 +896,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -911,7 +911,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

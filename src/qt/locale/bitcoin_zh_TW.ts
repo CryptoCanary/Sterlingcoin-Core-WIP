@@ -140,7 +140,7 @@
         <translation>這項操作需要先用密碼解鎖你的錢包</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>錢包解鎖</translation>
     </message>
     <message>
@@ -390,7 +390,7 @@
         <translation>&amp;總覽</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>顯示錢包資訊</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>&amp;交易</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>瀏覽交易紀錄</translation>
     </message>
     <message>
@@ -434,7 +434,7 @@
         <translation>&amp;顯示 / 隱藏</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>顯示或隱藏主視窗</translation>
     </message>
     <message>
@@ -442,7 +442,7 @@
         <translation>&amp;錢包加密</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>將你錢包中的私鑰加密</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>&amp;備份錢包</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>備份錢包到另外的位置</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;更改密碼</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>更改使用中的錢包密碼</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>&amp;錢包解鎖</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>錢包解鎖</translation>
     </message>
     <message>
@@ -502,7 +502,7 @@
         <translation>&amp;網路監控</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>顯示網路監控</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>&amp;錢包修復</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>顯示錢包修復選項</translation>
     </message>
     <message>
@@ -530,7 +530,7 @@
         <translation>&amp;顯示自動備份</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>顯示自動建立的錢包備份</translation>
     </message>
     <message>
@@ -538,7 +538,7 @@
         <translation>&amp;發送地址</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>顯示曾經使用的發送地址及標籤</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>&amp;接收地址</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>顯示曾經使用過的接收地址</translation>
     </message>
     <message>
@@ -590,7 +590,7 @@
         <translation>送出錢幣到 Sterlingcoin 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>請求付款 (會產生 QR Code跟 sterlingcoin 位址)</translation>
     </message>
     <message>
@@ -598,7 +598,7 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
@@ -646,7 +646,7 @@
         <translation>&amp;打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
@@ -658,7 +658,7 @@
         <translation>&amp;區塊鏈瀏覽</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>

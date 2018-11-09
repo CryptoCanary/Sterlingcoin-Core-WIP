@@ -152,7 +152,7 @@
         <translation>Para esta operação, é necessário desbloquear a carteira com a sua senha.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear carteira</translation>
     </message>
     <message>
@@ -350,7 +350,7 @@
         <translation>Carteira de backup</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear carteira</translation>
     </message>
     <message>

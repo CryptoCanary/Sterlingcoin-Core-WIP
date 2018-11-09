@@ -152,7 +152,7 @@
         <translation>Bu işlem, cüzdan kilidini açmak için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Cüzdanı aç</translation>
     </message>
     <message>
@@ -226,7 +226,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Cüzdanı aç</translation>
     </message>
     </context>

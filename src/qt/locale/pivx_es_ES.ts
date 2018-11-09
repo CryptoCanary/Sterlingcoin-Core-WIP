@@ -152,7 +152,7 @@
         <translation>Esta operación requiere su clave de seguridad para desbloquear el monedero.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear monedero</translation>
     </message>
     <message>
@@ -305,7 +305,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear monedero</translation>
     </message>
     </context>

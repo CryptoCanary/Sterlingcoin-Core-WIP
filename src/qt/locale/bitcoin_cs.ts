@@ -152,7 +152,7 @@
         <translation>Pro tuto operaci potřebujete frázové heslo k odemčení Vaší paněženky.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Odemknout peněženku</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>&amp;Přehled</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Ukaž celkový přehled peněženky</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>&amp;Transakce</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>&amp;Zobrazit / Schovat</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Zobrazit nebo schovat hlavní okno</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;Šifrovat Peněženku...</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Šifrovat privátní klíče náležící Vaší peněžence</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>&amp;Zálohovat peněženku...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Zálohovat peněženku na jiné místo</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;Změnit frázové heslo...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Změnit frázové heslo pro šifrování peněženky</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>&amp;Odemknout peněženku...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Odemknout peněženku</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>&amp;Monitorování sítě</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Zobrazit monitorování sítě</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>&amp;Oprava Peněženky</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Zobrazit možnosti opravy peněženky</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>Zobrazit Automatické &amp;Zálohy</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Zobrazit automaticky vytvořené zálohy peněženky</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@
         <translation>&amp;Odesílací adresy...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Zobrazit seznam použitých adres  a popisků pro odedslání platby</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>&amp;Příjimací adresy...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Zobrazit seznam použitých adres  a popisků pro přijetí plateb</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@
         <translation>Odeslat platbuna Sterlingcoin adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Vyžádat platbu (generování QK kódu a sterlingcoin: URIs)</translation>
     </message>
     <message>
@@ -614,7 +614,7 @@
         <translation>&amp;Masternody</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Procházet masternody</translation>
     </message>
     <message>
@@ -662,7 +662,7 @@
         <translation>Otevřít &amp;Masternodový Konfigurační Soubor</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
@@ -674,7 +674,7 @@
         <translation>&amp;Blockchanový průzkumník</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>

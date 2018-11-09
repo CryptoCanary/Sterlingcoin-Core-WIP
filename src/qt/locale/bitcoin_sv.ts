@@ -136,7 +136,7 @@
         <translation>Den här processen kräver din plånboks lösenfras för att låsa upp plånboken</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>lås upp plånbok</translation>
     </message>
     <message>
@@ -391,7 +391,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>&amp;Översikt</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Visa generell översikt av plånbok</translation>
     </message>
     <message>
@@ -407,7 +407,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>&amp;Transaktioner</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
@@ -435,7 +435,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>&amp;Visa / Dölj</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Visa eller Dölj huvudfönstret</translation>
     </message>
     <message>
@@ -443,7 +443,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera Plånbok</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Kryptera privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
@@ -451,7 +451,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>&amp;Säkerhetskopiera plånbok</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Säkerhetskopiera din plånbok till en annan plats</translation>
     </message>
     <message>
@@ -459,7 +459,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ändra lösenfras</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Ändra lösenfrasen som används för kryptering av plånbok</translation>
     </message>
     <message>
@@ -467,7 +467,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>lås upp plånbok</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>lås upp plånbok</translation>
     </message>
     <message>
@@ -503,7 +503,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Nätverks övervakare</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Visa nätverksövervakare</translation>
     </message>
     <message>
@@ -519,7 +519,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Plånbok &amp;Reparera</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Visa val av reparation av plånbok</translation>
     </message>
     <message>
@@ -531,7 +531,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Visa Automatiskt &amp;Säkerthetskopior</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Visa automatiskt skapade säkerhetskopior av plånbok</translation>
     </message>
     <message>
@@ -539,7 +539,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Sändnings adresser</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Visa listan över använda sändningsadresser och etiketter</translation>
     </message>
     <message>
@@ -547,7 +547,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Visa listan över använda mottagar adresser och etiketter</translation>
     </message>
     <message>
@@ -591,7 +591,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Skicka mynt till en Sterlingcoin adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Begär betalning (genererar QR kod och sterlingcoin: URls)</translation>
     </message>
     <message>
@@ -599,7 +599,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Masternoder</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Utforska masternoder</translation>
     </message>
     <message>

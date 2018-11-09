@@ -136,7 +136,7 @@
         <translation>Aquesta operació requereix la contrasenya del moneder per a desbloquejar-lo.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloqueja el moneder</translation>
     </message>
     <message>
@@ -246,7 +246,7 @@
         <translation>&amp;Transaccions</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Mostra històric de transaccions</translation>
     </message>
     <message>
@@ -270,7 +270,7 @@
         <translation>&amp;Opcions...</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Mostra o oculta la Finestra principal</translation>
     </message>
     <message>
@@ -286,7 +286,7 @@
         <translation>&amp;Desbloqueja el moneder...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloqueja el moneder</translation>
     </message>
     <message>
@@ -314,7 +314,7 @@
         <translation>Monitor de &amp;Xarxa</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Mostra el monitor de xarxa</translation>
     </message>
     <message>
@@ -374,7 +374,7 @@
         <translation>Obre el fitxer de &amp;configuració del Node Mestre</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>Obre el fitxer de configuració del Node Mestre</translation>
     </message>
     <message>

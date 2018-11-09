@@ -152,7 +152,7 @@
         <translation>Dette kræver dit password for at låse tegnebogen op</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Lås tegnebogen op</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>Overblik</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Vis et generelt overblik over tegnebogen</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>&amp;Transaktioner</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>&amp;Vis / skjul</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Vis eller skjul hovedvinduet.</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;Kryptografer tegnebog</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Krypter den private nøgle som hører til tegnebogen.</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>&amp;Sikkerhedskopier tegnebog</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Sikkerhedskopier og gem et andet sted</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;Skift kodeord</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Skift kodeordet til kryptografering af tegnebog</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>&amp;Lås tegnebogen op</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Lås tegnebogen op</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>&amp;Netværksmonitering</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Vis netværksmonitor</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>Tegnebog &amp;Reparer</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Vis indstillinger for reparation af tegnebog</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>Vis &amp;sikkerhedskopier, der er taget automatisk</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Vis sikkerhedskopier, der er taget automatisk</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@
         <translation>&amp;Afsenderadresser</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Vis listen over brugte afsenderadresse med tilhørende tekst.</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>&amp;Modtageradresse</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Vis listen over brugte modtageradresser og tekst</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@
         <translation>Send mønter til en Sterlingcoin adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og Sterlingcoin URL)</translation>
     </message>
     <message>
@@ -614,7 +614,7 @@
         <translation>&amp;Masternoder</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Vis masternoder</translation>
     </message>
     <message>
@@ -662,7 +662,7 @@
         <translation>Åbn &amp;Masternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
@@ -674,7 +674,7 @@
         <translation>&amp;blockchain explorer</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>

@@ -148,7 +148,7 @@
         <translation>Za ovu operaciju potrebna je vaša zaporka novčanika za otključavanje novčanika.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Otključaj novčanik</translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
         <translation>&amp;Pregled</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Pokaži opći pregled novčanika</translation>
     </message>
     <message>
@@ -393,7 +393,7 @@
         <translation>&amp;Transakcije</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
@@ -425,7 +425,7 @@
         <translation>&amp;Prikaži / Sakrij</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Prikaži ili sakrij glavni prozor</translation>
     </message>
     <message>
@@ -433,7 +433,7 @@
         <translation>&amp;Šifrirajte novčanik ...</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Šifriranje privatnih ključeva koji pripadaju vašem novčaniku</translation>
     </message>
     <message>
@@ -441,7 +441,7 @@
         <translation>Sigurnosna kopija novčanika ...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Sigurnosna kopija novčanika na drugu lokaciju</translation>
     </message>
     <message>
@@ -449,7 +449,7 @@
         <translation>&amp; Promijeni zaporku ...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Promjena zaporke koja se koristi za šifriranje novčanika.</translation>
     </message>
     <message>
@@ -457,7 +457,7 @@
         <translation>&amp; Otključaj novčanik ...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Otključaj novčanik</translation>
     </message>
     <message>
@@ -493,7 +493,7 @@
         <translation>&amp; Monitor mreže</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Prikaži mrežni monitor</translation>
     </message>
     <message>
@@ -509,7 +509,7 @@
         <translation>Novčanik i popravak</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Prikaz opcija popravka novčanika</translation>
     </message>
     <message>
@@ -521,7 +521,7 @@
         <translation>Prikaži automatsko i sigurnosno kopiranje</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Prikaži automatski stvorene sigurnosne kopije za novčanik.</translation>
     </message>
     <message>
@@ -529,7 +529,7 @@
         <translation>&amp; Slanje adresa ...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Prikaz popisa upotrijebljenih poslanih adresa i oznaka</translation>
     </message>
     <message>
@@ -537,7 +537,7 @@
         <translation>Primanje adresa ...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Prikaz popisa upotrijebljenih primljenih adresa i oznaka</translation>
     </message>
     <message>
@@ -545,7 +545,7 @@
         <translation>&amp; Stvaranje višestruke oznake ...</translation>
     </message>
     <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
+        <source>Create a new Sterlingcoin multisignature address and add it to this wallet</source>
         <translation>Izradite novu adresu s višestrukim adresama i dodajte je u taj novčanik</translation>
     </message>
     <message>
@@ -553,7 +553,7 @@
         <translation>&amp; Izdaci za više osoba ...</translation>
     </message>
     <message>
-        <source>Spend from a multisignature address</source>
+        <source>Spend from a Sterlingcoin multisignature address</source>
         <translation>Potrošite s adrese s više adresa</translation>
     </message>
     <message>
@@ -561,7 +561,7 @@
         <translation>Potpisivanje više znakova ...</translation>
     </message>
     <message>
-        <source>Sign with a multisignature address</source>
+        <source>Sign with a Sterlingcoin multisignature address</source>
         <translation>Prijavite se s adresom s više adresa</translation>
     </message>
     <message>
@@ -609,7 +609,7 @@
         <translation>Pošaljite kovanice na PIVX adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and pivx: URIs)</source>
         <translation>Zahtjev za plaćanja (generira QR kodove i pivx: URI)</translation>
     </message>
     <message>
@@ -621,7 +621,7 @@
         <translation>&amp;Masternode</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Pregledajte masternode</translation>
     </message>
     <message>

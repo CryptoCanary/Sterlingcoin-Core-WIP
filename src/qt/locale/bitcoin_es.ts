@@ -152,7 +152,7 @@
         <translation>Esta operación requiere su contraseña para desbloquear el monedero</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear monedero</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>&amp;Visión general</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Mostrar visión general de la wallet</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>&amp;Transacciones</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Navegar por el historial de transacciones</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>&amp;Mostrar / Esconder</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Mostrar o esconder la ventana principal</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;Encriptar wallet...</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Encriptar las claves privadas que pertenecen a tu wallet</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>&amp;Copia de seguridad de la wallet...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Copia de seguridad de la wallet a otra ubicación</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Cambiar contraseña usada para la encriptación de la wallet</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>&amp;Desbloquear wallet...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Desbloquear monedero</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>&amp;Monitor de red</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Mostrar monitor de red</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>&amp;Reparación de la wallet</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Mostrar opciones de reparación de la wallet</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>Mostrar &amp;copias de seguridad automatizadas</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Mostrar las copias de seguridad creadas automáticamente</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@
         <translation>&amp;Direcciones de envío...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Mostrar la lista y etiquetas de direcciones de envío usadas</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>&amp;Dirección receptora</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Mostrar la lista de las direcciones y etiquetas usadas</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>Enviar coins a una dirección Sterlingcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -626,7 +626,7 @@
         <translation>Nodos &amp;Maestros</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
@@ -674,7 +674,7 @@
         <translation>Abrir Fichero de Configuración de Nodos &amp;Maestros</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
@@ -686,7 +686,7 @@
         <translation>Explorador de &amp;Bloques</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>

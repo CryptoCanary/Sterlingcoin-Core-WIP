@@ -152,8 +152,8 @@
         <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <source>Unlock Sterlingcoin wallet</source>
+        <translation>Unlock Sterlingcoin wallet</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
@@ -406,8 +406,8 @@
         <translation>&amp;Overview</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
-        <translation>Show general overview of wallet</translation>
+        <source>Show general overview of Sterlingcoin wallet</source>
+        <translation>Show general overview of Sterlingcoin wallet</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -422,8 +422,8 @@
         <translation>&amp;Transactions</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
-        <translation>Browse transaction history</translation>
+        <source>Browse your Sterlingcoin transaction history</source>
+        <translation>Browse your Sterlingcoin transaction history</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -450,40 +450,40 @@
         <translation>&amp;Show / Hide</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
-        <translation>Show or hide the main Window</translation>
+        <source>Show or hide the main Sterlingcoin window</source>
+        <translation>Show or hide the main Sterlingcoin window</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Encrypt Wallet...</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Encrypt the private keys that belong to your wallet</translation>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
+        <translation>Encrypt the private keys that belong to your Sterlingcoin wallet</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Backup Wallet...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
-        <translation>Backup wallet to another location</translation>
+        <source>Backup Sterlingcoin wallet to another location</source>
+        <translation>Backup Sterlingcoin wallet to another location</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Change the passphrase used for wallet encryption</translation>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <translation>Change the passphrase used for Sterlingcoin wallet encryption</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
         <translation>&amp;Unlock Wallet...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <source>Unlock Sterlingcoin wallet</source>
+        <translation>Unlock Sterlingcoin wallet</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
@@ -518,8 +518,8 @@
         <translation>&amp;Network Monitor</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
-        <translation>Show network monitor</translation>
+        <source>Show Sterlingcoin network monitor</source>
+        <translation>Show Sterlingcoin network monitor</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
@@ -534,8 +534,8 @@
         <translation>Wallet &amp;Repair</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
-        <translation>Show wallet repair options</translation>
+        <source>Show Sterlingcoin wallet repair options</source>
+        <translation>Show Sterlingcoin wallet repair options</translation>
     </message>
     <message>
         <source>Open configuration file</source>
@@ -546,24 +546,24 @@
         <translation>Show Automatic &amp;Backups</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
-        <translation>Show automatically created wallet backups</translation>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
+        <translation>Show automatically created Sterlingcoin wallet backups</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
         <translation>&amp;Sending addresses...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Show the list of used sending addresses and labels</translation>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
+        <translation>Show the list of used Sterlingcoin sending addresses and labels</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>&amp;Receiving addresses...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Show the list of used receiving addresses and labels</translation>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
+        <translation>Show the list of used Sterlingcoin receiving addresses and labels</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -610,16 +610,16 @@
         <translation>Send coins to a Sterlingcoin address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and sterlingcoin: URIs)</translation>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
+        <translation>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
-        <translation>Browse masternodes</translation>
+        <source>Browse Sterlingcoin masternodes</source>
+        <translation>Browse Sterlingcoin masternodes</translation>
     </message>
     <message>
         <source>&amp;About Sterlingcoin Core</source>
@@ -666,8 +666,8 @@
         <translation>Open &amp;Masternode Configuration File</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuration file</translation>
+        <source>Open Sterlingcoin masternode configuration file</source>
+        <translation>Open Sterlingcoin masternode configuration file</translation>
     </message>
     <message>
         <source>Open a Sterlingcoin: URI or payment request</source>
@@ -678,8 +678,8 @@
         <translation>&amp;Blockchain explorer</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
-        <translation>Block explorer window</translation>
+        <source>Sterlingcoin block explorer window</source>
+        <translation>Sterlingcoin block explorer window</translation>
     </message>
     <message>
         <source>Show the Sterlingcoin Core help message to get a list with possible Sterlingcoin command-line options</source>

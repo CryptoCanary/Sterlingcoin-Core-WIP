@@ -152,7 +152,7 @@
         <translation>이 작업은 지갑의 암호를 풀어 지갑을 잠금해제를 진행해야 합니다.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>지갑 잠금해제</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>&amp;개요</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>지갑의 일반적인 개요 표시</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>&amp;트랜잭션</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>트랜잭션 내역 보기</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>&amp;보이기 / 숨기기</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>기본 창 보이기 또는 숨기기</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;지갑 암호화...</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>지갑 개인 키 암호화</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>&amp;지갑 백업</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>다른 위치에 지갑 백업</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;암호 변경...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>&amp;지갑 잠금해제...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>지갑 잠금해제</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>&amp;네트워크 모니터</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>네트워크 모니터 표시</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>지갑 &amp;복구</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>지갑 복구 옵션 표시</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>자동 &amp;백업 표시</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>자동 생성된 지갑 백업 표시</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@
         <translation>&amp;주소 보내는중...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>전송 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>&amp;받는 주소...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>입금 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@
         <translation>Sterlingcoin 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>결제 요청 (QR 코드 및 sterlingcoin: URI 생성)</translation>
     </message>
     <message>
@@ -614,7 +614,7 @@
         <translation>&amp;마스터노드</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>마스터노드 검색</translation>
     </message>
     <message>
@@ -662,7 +662,7 @@
         <translation>&amp;마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
@@ -674,7 +674,7 @@
         <translation>&amp;블록체인 탐색기</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>블록 탐색 창</translation>
     </message>
     <message>

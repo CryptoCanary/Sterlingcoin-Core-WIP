@@ -148,7 +148,7 @@
         <translation>Для розблокування гаманця потрібно його кодове слово.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Розблокувати гаманець</translation>
     </message>
     <message>
@@ -197,7 +197,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Розблокувати гаманець</translation>
     </message>
     </context>

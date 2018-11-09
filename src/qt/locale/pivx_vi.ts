@@ -72,7 +72,7 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Mở khóa ví</translation>
     </message>
     </context>
@@ -85,7 +85,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Mở khóa ví</translation>
     </message>
     </context>

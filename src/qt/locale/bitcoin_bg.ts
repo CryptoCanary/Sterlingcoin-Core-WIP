@@ -144,7 +144,7 @@
         <translation>Това действие изисква вашата портфейлна парола, за да отключи портфейла.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Отключване на портфейла</translation>
     </message>
     <message>
@@ -282,7 +282,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Отключване на портфейла</translation>
     </message>
     </context>

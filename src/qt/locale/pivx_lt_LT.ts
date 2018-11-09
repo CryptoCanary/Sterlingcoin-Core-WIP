@@ -152,7 +152,7 @@
         <translation>Ši operacija reikalauja jūsų piniginės slaptafrazės, tam, kad ją atrakintumėte.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Atrakinti piniginę</translation>
     </message>
     <message>
@@ -413,7 +413,7 @@
         <translation>&amp;Peržiūra</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Rodyti bendrą piniginės vaizdą.</translation>
     </message>
     <message>
@@ -429,7 +429,7 @@
         <translation>&amp;Pavedimai</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
@@ -461,7 +461,7 @@
         <translation>&amp;Rodyti / Paslėpti</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Rodyti arba paslėpti pagrindinį langą</translation>
     </message>
     <message>
@@ -469,7 +469,7 @@
         <translation>&amp;Užšifruoti Piniginę</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
     </message>
     <message>
@@ -477,7 +477,7 @@
         <translation>&amp;Sukurti atsarginę piniginės kopiją</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>&amp;Sukurti atsarginę piniginės kopiją kitoje vietoje</translation>
     </message>
     <message>
@@ -485,7 +485,7 @@
         <translation>&amp;Pakeisti slaptafrazę</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Pakeisti slaptafrazę naudojama piniginės šifravimui</translation>
     </message>
     <message>
@@ -493,7 +493,7 @@
         <translation>&amp;Atrakinti piniginę</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Atrakinti piniginę</translation>
     </message>
     <message>
@@ -529,7 +529,7 @@
         <translation>&amp;Tinklo Monitorius</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Rodyti tinklo monitorių</translation>
     </message>
     <message>
@@ -545,7 +545,7 @@
         <translation>Piniginės &amp;Taisymas</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Rodyti piniginės taisymo parinktis</translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
         <translation>Rodyti Automatines Atsargines Kopijas</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Rodyti automatiškai sukurtas piniginės atsargines kopijas</translation>
     </message>
     <message>
@@ -565,7 +565,7 @@
         <translation>&amp;Siuntimo adresai...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Rodyti naudotų siuntimo adresų ir etikečių sąrašą</translation>
     </message>
     <message>
@@ -573,7 +573,7 @@
         <translation>&amp;Gavimo adresai...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Rodyti naudotų gavimo adresų ir etikečių sąrašą</translation>
     </message>
     <message>
@@ -581,7 +581,7 @@
         <translation>&amp;"Daugiaparašo" kūrimas...</translation>
     </message>
     <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
+        <source>Create a new Sterlingcoin multisignature address and add it to this wallet</source>
         <translation>Sukurti naują multisignature adresą ir pridėti jį prie šios piniginės</translation>
     </message>
     <message>
@@ -589,7 +589,7 @@
         <translation>&amp;"Multisignature" išlaidos...</translation>
     </message>
     <message>
-        <source>Spend from a multisignature address</source>
+        <source>Spend from a Sterlingcoin multisignature address</source>
         <translation>Išleisti iš "multisignature" adreso</translation>
     </message>
     <message>
@@ -597,7 +597,7 @@
         <translation>&amp;"Multisignature" parašas...</translation>
     </message>
     <message>
-        <source>Sign with a multisignature address</source>
+        <source>Sign with a Sterlingcoin multisignature address</source>
         <translation>P</translation>
     </message>
     <message>
@@ -653,7 +653,7 @@
         <translation>Siųsti monetas į PIVX adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and pivx: URIs)</source>
         <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir pivx URI)</translation>
     </message>
     <message>
@@ -665,7 +665,7 @@
         <translation>&amp;Masternod'ai</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
@@ -713,7 +713,7 @@
         <translation>Atidaryti &amp;Masternod'o Konfigūracijos Failą</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
@@ -725,7 +725,7 @@
         <translation>&amp;Blockchain naršyklė</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>

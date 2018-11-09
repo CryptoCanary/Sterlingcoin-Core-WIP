@@ -148,7 +148,7 @@
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Open portemonnee</translation>
     </message>
     <message>
@@ -402,7 +402,7 @@
         <translation>&amp;Overzicht</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
+        <source>Show general overview of Sterlingcoin wallet</source>
         <translation>Toon algemeen overzicht van de portemonnee</translation>
     </message>
     <message>
@@ -418,7 +418,7 @@
         <translation>&amp;Transacties</translation>
     </message>
     <message>
-        <source>Browse transaction history</source>
+        <source>Browse your Sterlingcoin transaction history</source>
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
@@ -446,7 +446,7 @@
         <translation>&amp;Tonen / Verbergen</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main Sterlingcoin window</source>
         <translation>Toon of verberg het hoofdvenster</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Versleutel portemonnee</translation>
     </message>
     <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
+        <source>Encrypt the private keys that belong to your Sterlingcoin wallet</source>
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Backup Portemonnee...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup Sterlingcoin wallet to another location</source>
         <translation>Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>&amp;Wijzig Wachtwoord...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
         <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>&amp;Open portemonnee...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock Sterlingcoin wallet</source>
         <translation>Open portemonnee</translation>
     </message>
     <message>
@@ -514,7 +514,7 @@
         <translation>&amp;Netwerk Monitor</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show Sterlingcoin network monitor</source>
         <translation>Toon netwerk monitor</translation>
     </message>
     <message>
@@ -530,7 +530,7 @@
         <translation>Portemonnee &amp;Repareren </translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show Sterlingcoin wallet repair options</source>
         <translation>Toon portemonnee reparatie opties</translation>
     </message>
     <message>
@@ -542,7 +542,7 @@
         <translation>Toon Automatische &amp;Backups</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show automatically created Sterlingcoin wallet backups</source>
         <translation>Toon automatisch aangemaakte portemonnee backups</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>&amp;Verzendadressen...</translation>
     </message>
     <message>
-        <source>Show the list of used sending addresses and labels</source>
+        <source>Show the list of used Sterlingcoin sending addresses and labels</source>
         <translation>Toon de lijst van verzendadressen en labels</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>&amp;Ontvangstadressen...</translation>
     </message>
     <message>
-        <source>Show the list of used receiving addresses and labels</source>
+        <source>Show the list of used Sterlingcoin receiving addresses and labels</source>
         <translation>Toon de lijst van ontvangstadressen en labels</translation>
     </message>
     <message>
@@ -602,7 +602,7 @@
         <translation>Verstuur munten naar een Sterlingcoin adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sterlingcoin: URIs)</source>
+        <source>Request Sterlingcoin payments (generates QR codes and sterlingcoin: URIs)</source>
         <translation>Vraag betaling aan (genereert QR-codes en Sterlingcoin: URI's)</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse Sterlingcoin masternodes</source>
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
@@ -658,7 +658,7 @@
         <translation>Open &amp;Masternode Configuratiebestand</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
+        <source>Open Sterlingcoin masternode configuration file</source>
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
@@ -670,7 +670,7 @@
         <translation>&amp;Blockchain verkenner</translation>
     </message>
     <message>
-        <source>Block explorer window</source>
+        <source>Sterlingcoin block explorer window</source>
         <translation>Block verkenner venster</translation>
     </message>
     <message>
