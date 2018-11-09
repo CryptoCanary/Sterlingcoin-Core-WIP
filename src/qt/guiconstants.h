@@ -25,23 +25,23 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 #define STYLE_INVALID "background:#FF8080"
 
 /* Transaction list -- unconfirmed transaction */
-#define COLOR_UNCONFIRMED QColor(91, 76, 134)
+#define COLOR_UNCONFIRMED QColor(138, 138, 138)
 /* Transaction list -- negative amount */
-#define COLOR_NEGATIVE QColor(206, 0, 188)
+#define COLOR_NEGATIVE QColor(167, 119, 119)
 /* Transaction list -- bare address (without label) */
-#define COLOR_BAREADDRESS QColor(140, 140, 140)
+#define COLOR_BAREADDRESS QColor(178, 178, 178)
 /* Transaction list -- TX status decoration - open until date */
-#define COLOR_TX_STATUS_OPENUNTILDATE QColor(64, 64, 255)
+#define COLOR_TX_STATUS_OPENUNTILDATE QColor(102, 102, 150)
 /* Transaction list -- TX status decoration - offline */
 #define COLOR_TX_STATUS_OFFLINE QColor(192, 192, 192)
 /* Transaction list -- TX status decoration - default color */
-#define COLOR_BLACK QColor(51, 51, 51)
+#define COLOR_BLACK QColor(90, 104, 118)
 /* Transaction list -- TX status decoration - conflicted */
 #define COLOR_CONFLICTED QColor(255, 0, 0)
-/* Transaction list -- TX status decoration - orphan (Light Gray #D3D3D3) */
-#define COLOR_ORPHAN QColor(211, 211, 211)
-/* Transaction list -- TX status decoration - stake (BlueViolet #8A2BE2) */
-#define COLOR_STAKE QColor(138,43,226)
+/* Transaction list -- TX status decoration - orphan (Light) */
+#define COLOR_ORPHAN QColor(178, 178, 178)
+/* Transaction list -- TX status decoration - stake (Darker) */
+#define COLOR_STAKE QColor(138,138,138)
 
 /* Tooltips longer than this (in characters) are converted into rich text,
    so that they can be word-wrapped.
