@@ -406,7 +406,7 @@
         <translation>&amp;Übersicht</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>Allgemeine Wallet-Übersicht anzeigen</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>Passphrase &amp;ändern...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>Ändert die Passphrase, die für die Wallet-Verschlüsselung benutzt wird</translation>
     </message>
     <message>

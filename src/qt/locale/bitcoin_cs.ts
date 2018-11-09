@@ -406,7 +406,7 @@
         <translation>&amp;Přehled</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>Ukaž celkový přehled peněženky</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;Změnit frázové heslo...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>Změnit frázové heslo pro šifrování peněženky</translation>
     </message>
     <message>

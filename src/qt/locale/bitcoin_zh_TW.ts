@@ -390,7 +390,7 @@
         <translation>&amp;總覽</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>顯示錢包資訊</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>&amp;更改密碼</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>更改使用中的錢包密碼</translation>
     </message>
     <message>

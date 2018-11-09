@@ -521,8 +521,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show general overview of Sterlingcoin wallet</source>
-        <translation>Show general overview of Sterlingcoin wallet</translation>
+        <source>Show general overview of your Sterlingcoin wallet</source>
+        <translation>Show general overview of your Sterlingcoin wallet</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -612,8 +612,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
-        <translation>Change the passphrase used for Sterlingcoin wallet encryption</translation>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
+        <translation>Change the passphrase used for your Sterlingcoin wallet encryption</translation>
     </message>
     <message>
         <location line="+1"/>

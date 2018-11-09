@@ -406,7 +406,7 @@
         <translation>&amp;개요</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>지갑의 일반적인 개요 표시</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;암호 변경...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>

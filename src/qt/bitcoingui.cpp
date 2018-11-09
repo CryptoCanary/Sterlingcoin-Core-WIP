@@ -308,7 +308,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     QActionGroup* tabGroup = new QActionGroup(this);
 
     overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Overview"), this);
-    overviewAction->setStatusTip(tr("Show general overview of Sterlingcoin wallet"));
+    overviewAction->setStatusTip(tr("Show general overview of your Sterlingcoin wallet"));
     overviewAction->setToolTip(overviewAction->statusTip());
     overviewAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -420,7 +420,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     backupWalletAction = new QAction(QIcon(":/icons/filesave"), tr("&Backup Wallet..."), this);
     backupWalletAction->setStatusTip(tr("Backup Sterlingcoin wallet to another location"));
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
-    changePassphraseAction->setStatusTip(tr("Change the passphrase used for Sterlingcoin wallet encryption"));
+    changePassphraseAction->setStatusTip(tr("Change the passphrase used your for Sterlingcoin wallet encryption"));
     unlockWalletAction = new QAction(tr("&Unlock Wallet..."), this);
     unlockWalletAction->setToolTip(tr("Unlock Sterlingcoin wallet"));
     lockWalletAction = new QAction(tr("&Lock Wallet"), this);

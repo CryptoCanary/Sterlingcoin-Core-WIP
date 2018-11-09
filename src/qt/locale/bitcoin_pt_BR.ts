@@ -394,7 +394,7 @@
         <translation>&amp;Visão Geral</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>Mostrar visão geral da carteira</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>&amp;Alterar palavra-chave...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>Altera a palavra-chave utilizada para encriptação da carteira</translation>
     </message>
     <message>

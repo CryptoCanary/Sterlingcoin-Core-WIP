@@ -402,7 +402,7 @@
         <translation>&amp;Обзор</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>Общий обзор кошелька</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>&amp;Изменить кодовую фразу</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>Изменение кодовой фразы, используемой для шифрования кошелька</translation>
     </message>
     <message>

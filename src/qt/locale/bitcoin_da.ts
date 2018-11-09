@@ -406,7 +406,7 @@
         <translation>Overblik</translation>
     </message>
     <message>
-        <source>Show general overview of Sterlingcoin wallet</source>
+        <source>Show general overview of your Sterlingcoin wallet</source>
         <translation>Vis et generelt overblik over tegnebogen</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>&amp;Skift kodeord</translation>
     </message>
     <message>
-        <source>Change the passphrase used for Sterlingcoin wallet encryption</source>
+        <source>Change the passphrase used for your Sterlingcoin wallet encryption</source>
         <translation>Skift kodeordet til kryptografering af tegnebog</translation>
     </message>
     <message>
