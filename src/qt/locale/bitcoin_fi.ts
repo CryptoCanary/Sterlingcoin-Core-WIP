@@ -180,7 +180,7 @@
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STERLINGCOIN&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SLGisi&lt;/b&gt;</translation>
     </message>
     <message>

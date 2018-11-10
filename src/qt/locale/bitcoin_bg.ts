@@ -176,7 +176,7 @@
         <translation>Сигурни ли сте, че искате да криптирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STERLINGCOIN&lt;/b&gt;!</source>
         <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ SLG&lt;/b&gt;!</translation>
     </message>
     <message>

@@ -184,7 +184,7 @@
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STERLINGCOIN&lt;/b&gt;!</source>
         <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 SLG를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>

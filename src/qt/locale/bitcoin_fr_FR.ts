@@ -160,7 +160,7 @@
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLG&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STERLINGCOIN&lt;/b&gt;!</source>
         <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS SLG&lt;/b&gt;!</translation>
     </message>
     <message>
