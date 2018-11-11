@@ -56,6 +56,8 @@
         <file alias="automint_active">res/icons/automint_active.png</file>
         <file alias="automint_inactive">res/icons/automint_inactive.png</file>
         <file alias="explorer">res/icons/explorer.png</file>
+        <file alias="qtlogo">res/icons/qtlogo.png</file>
+        <file alias="info">res/icons/info.png</file>
     </qresource>
     <qresource prefix="/css">
         <file alias="default">res/css/default.css</file>

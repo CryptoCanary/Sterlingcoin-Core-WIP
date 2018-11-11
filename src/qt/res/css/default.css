@@ -105,7 +105,7 @@ QToolBar > QToolButton:checked {
     /* background-color: qlineargradient(x1:0, x2: 1, stop: 0 #5A6876, stop: 0.025 #5A6876, stop: 0.0251 #5A6876, stop: 1 #5A6876); */
     color:#fff;
     padding-right: 0.07em;
-    padding-top: 0.07em;
+    /* padding-top: 0.07em; */
     border-right: 0.5em solid #5A6876;
     border-top-color: #5A6876;
 }
