@@ -51,6 +51,7 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
         ui->warningLabel->setText(tr("Enter the new passphrase to the wallet.<br/>Please use a passphrase of <b>ten or more random characters</b>, or <b>eight or more words</b>."));
         ui->passLabel1->hide();
         ui->passEdit1->hide();
+        ui->anonymizationCheckBox->hide();
         setWindowTitle(tr("Encrypt wallet"));
         break;
     case Mode::UnlockAnonymize:
@@ -69,10 +70,12 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
         ui->passEdit2->hide();
         ui->passLabel3->hide();
         ui->passEdit3->hide();
+        ui->anonymizationCheckBox->hide();
         setWindowTitle(tr("Decrypt wallet"));
         break;
     case Mode::ChangePass: // Ask old passphrase + new passphrase x2
         setWindowTitle(tr("Change passphrase"));
+        ui->anonymizationCheckBox->hide();
         ui->warningLabel->setText(tr("Enter the old and new passphrase to the wallet."));
         break;
     }

@@ -78,7 +78,7 @@ QToolBar {
     border:0px solid #333;
     padding:1;
     margin:0;
-    width: 50px;
+    width: 80px;
 }
 
 QToolBar > QToolButton {
