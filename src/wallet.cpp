@@ -367,8 +367,8 @@ bool CWallet::SetMaxVersion(int nVersion)
 {
     LOCK(cs_wallet); // nWalletVersion, nWalletMaxVersion
     // cannot downgrade below current version
-    // if (nWalletVersion > nVersion)
-    //    return false;
+    if (nWalletVersion > nVersion)
+        return false;
 
     nWalletMaxVersion = nVersion;
 
