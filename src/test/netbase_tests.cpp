@@ -2,6 +2,7 @@
 // Copyright (c) 2014-2015 The Dash Core developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2014-2018 The Sterlingcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -63,15 +64,15 @@ BOOST_AUTO_TEST_CASE(netbase_splithost)
     BOOST_CHECK(TestSplitHost("www.bitcoin.org:80", "www.bitcoin.org", 80));
     BOOST_CHECK(TestSplitHost("[www.bitcoin.org]:80", "www.bitcoin.org", 80));
     BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("127.0.0.1:9127", "127.0.0.1", 9009));
+    BOOST_CHECK(TestSplitHost("127.0.0.1:9127", "127.0.0.1", 9127));
     BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[127.0.0.1]:9127", "127.0.0.1", 9009));
+    BOOST_CHECK(TestSplitHost("[127.0.0.1]:9127", "127.0.0.1", 9127));
     BOOST_CHECK(TestSplitHost("::ffff:127.0.0.1", "::ffff:127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:9127", "::ffff:127.0.0.1", 9009));
-    BOOST_CHECK(TestSplitHost("[::]:9127", "::", 9009));
+    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:9127", "::ffff:127.0.0.1", 9127));
+    BOOST_CHECK(TestSplitHost("[::]:9127", "::", 9127));
     BOOST_CHECK(TestSplitHost("::9127", "::9127", -1));
-    BOOST_CHECK(TestSplitHost(":9127", "", 9009));
-    BOOST_CHECK(TestSplitHost("[]:9127", "", 9009));
+    BOOST_CHECK(TestSplitHost(":9127", "", 9127));
+    BOOST_CHECK(TestSplitHost("[]:9127", "", 9127));
     BOOST_CHECK(TestSplitHost("", "", -1));
 }
 
