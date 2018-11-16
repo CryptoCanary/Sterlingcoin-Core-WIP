@@ -1,20 +1,20 @@
-.TH PIV-QT "1" "February 2017" "pivx-qt 1"
+.TH Sterlingcoin-QT "1" "November 2018" "sterlingcoin-qt 1"
 .SH NAME
-pivx-qt \- peer-to-peer network based digital currency
+sterlingcoin-qt \- peer-to-peer network based digital currency
 .SH DESCRIPTION
 .SS "Usage:"
 .IP
-pivx\-qt [command\-line options]
+sterlingcoin\-qt [command\-line options]
 .SH OPTIONS
 .TP
 \-?
 This help message
 .TP
 \fB\-conf=\fR<file>
-Specify configuration file (default: pivx.conf)
+Specify configuration file (default: sterlingcoin.conf)
 .TP
 \fB\-pid=\fR<file>
-Specify pid file (default: pivxd.pid)
+Specify pid file (default: sterlingcoind.pid)
 .TP
 \fB\-gen\fR
 Generate coins
@@ -41,7 +41,7 @@ Use proxy to reach tor hidden services (default: same as \fB\-proxy\fR)
 Allow DNS lookups for \fB\-addnode\fR, \fB\-seednode\fR and \fB\-connect\fR
 .TP
 \fB\-port=\fR<port>
-Listen for connections on <port> (default: 9009 or testnet: 19009)
+Listen for connections on <port> (default: 9127 or testnet: 19127)
 .TP
 \fB\-maxconnections=\fR<n>
 Maintain at most <n> connections to peers (default: 125)
@@ -122,7 +122,7 @@ Username for JSON\-RPC connections
 Password for JSON\-RPC connections
 .TP
 \fB\-rpcport=\fR<port>
-Listen for JSON\-RPC connections on <port> (default: 9019 or testnet: 19019)
+Listen for JSON\-RPC connections on <port> (default: 9127 or testnet: 19127)
 .TP
 \fB\-rpcallowip=\fR<ip>
 Allow JSON\-RPC connections from specified IP address
