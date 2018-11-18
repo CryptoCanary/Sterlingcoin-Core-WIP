@@ -402,7 +402,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        nDefaultPort = 19004;
+        nDefaultPort = 19126;
 
         genesis.nTime = 1535104494;
         genesis.nBits = 0x207fffff;
@@ -470,7 +470,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 19029;
+        nDefaultPort = 19125;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 
