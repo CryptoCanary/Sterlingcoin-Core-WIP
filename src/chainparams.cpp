@@ -122,7 +122,7 @@ public:
         pchMessageStart[2] = 0x07;
         pchMessageStart[3] = 0x18;
         vAlertPubKey = ParseHex("0x"); // Disabled
-        nDefaultPort = 9127;
+        nDefaultPort = 19127;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Sterlingcoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210240;
         nMaxReorganizationDepth = 100;
@@ -276,7 +276,7 @@ public:
         vAlertPubKey = ParseHex("");
         bnProofOfWorkLimit = ~uint256(0) >> 1; // 0x207fffff, Sterlingcoin testnet starting difficulty
         nSubsidyHalvingInterval = 210240;
-        nDefaultPort = 19127;
+        nDefaultPort = 20127;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
