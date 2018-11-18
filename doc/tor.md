@@ -59,10 +59,10 @@ SOCKSPolicy accept 127.0.0.1/8
 Log notice file /var/log/tor/notices.log
 ControlPort 9051
 HiddenServiceDir /var/lib/tor/dnet/
-HiddenServicePort 989 127.0.0.1:9127
+HiddenServicePort 9127 127.0.0.1:9127
 HiddenServiceStatistics 0
 ORPort 9001
-LongLivedPorts 989
+LongLivedPorts 9127
 ExitPolicy reject *:*
 DisableDebuggerAttachment 0
 NumEntryGuards 8
