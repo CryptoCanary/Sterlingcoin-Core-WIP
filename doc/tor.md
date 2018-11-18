@@ -1,4 +1,4 @@
-TOR SUPPORT IN Sterlingcoin
+TOR SUPPORT IN STERLINGCOIN
 ===========================
 
 It is possible to run Sterlingcoin as a Tor hidden service, and connect to such services.
