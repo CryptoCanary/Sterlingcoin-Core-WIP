@@ -232,7 +232,7 @@ public:
         strSporkKey = "";
         strSporkKeyOld = "";
         strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
-        nStartMasternodePayments = 1546300800; // 2019-01-01 00:00:00
+        nStartMasternodePayments = 1542675734; // 2018-11-20 1546300800; // 2019-01-01 00:00:00
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
