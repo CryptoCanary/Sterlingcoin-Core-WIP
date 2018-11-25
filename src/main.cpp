@@ -1830,17 +1830,17 @@ int64_t GetBlockValue(int nHeight)
 
     int64_t nSubsidy = 0;
     // Block 1: credit majority of public ledger total, for subsequent disbursal.
-    // Total of PoW phase adds up to all coins generated during PoW phase.
-    // Total ledger value: ~4.3 mil    PoW Phase: 400 blocks
+    // Total of PoW phase adds up to all coins generated during PoW phase + 4 years of PoS.
+    // Total ledger value premine: ~4.3 mil    PoW Phase: 1440 blocks (~one day) 0 reward
     if (nHeight == 1) {
         nSubsidy = static_cast<int64_t>(4300000 * COIN);
     } else if (nHeight <= Params().LAST_POW_BLOCK()) {
         nSubsidy = static_cast<int64_t>(0 * COIN);
-    // Low PoS reward for 2 weeks following initial wallet launch
-    } else if (nHeight <= 28000) {
-        nSubsidy = static_cast<int64_t>(0.2 * COIN); 
+    // Low PoS reward for ~2 weeks following initial wallet launch
+    } else if (nHeight <= 20160) {
+        nSubsidy = static_cast<int64_t>(0.5 * COIN); 
     } else {
-        nSubsidy = static_cast<int64_t>(2 * COIN);
+        nSubsidy = static_cast<int64_t>(5.5 * COIN);
     }
     return nSubsidy;
 }
@@ -1850,9 +1850,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     int64_t ret = 0;
 
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight <= 400) {
+        if (nHeight <= 720) {
             return 0;
-	} else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 400) {
+	} else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 720) {
 	    ret = blockValue / 2;
 	} else {
 	    ret = blockValue / 2;
@@ -1862,9 +1862,11 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     // No masternode payments during Proof of Work phase
     if (nHeight <= Params().LAST_POW_BLOCK()) {
         ret = 0;
-	} else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 2250) {
+	/* STS SLG let's let MN start after PoW ends
+        } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 2250) {
 	    ret = 0;
-    } else {
+        } */ 
+   else {
         // 50/50 split of staking reward and masternode reward
         ret = blockValue / 2;
     //} else {

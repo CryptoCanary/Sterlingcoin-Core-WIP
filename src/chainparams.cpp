@@ -124,7 +124,6 @@ public:
         vAlertPubKey = ParseHex("0x"); // Disabled
         nDefaultPort = 19127;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Sterlingcoin starting difficulty is 1 / 2^12
-        nSubsidyHalvingInterval = 210240;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -132,13 +131,13 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
-        nMaturity = 100;
+        nMaturity = 120;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 4300000 * COIN;
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
-        nLastPOWBlock = 400; // Short PoW phase before transition to PoS
+        nLastPOWBlock = 1440; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
         nZerocoinStartHeight = 999999999; // (PIVX: 863787, Phore 90000)
@@ -274,7 +273,6 @@ public:
         pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("");
         bnProofOfWorkLimit = ~uint256(0) >> 1; // 0x207fffff, Sterlingcoin testnet starting difficulty
-        nSubsidyHalvingInterval = 210240;
         nDefaultPort = 20127;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -282,7 +280,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
-        nLastPOWBlock = 400;
+        nLastPOWBlock = 720;
         nMaturity = 15;
         nMasternodeCountDrift = 2;
         // nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
@@ -392,7 +390,6 @@ public:
         pchMessageStart[1] = 0x0c;
         pchMessageStart[2] = 0x07;
         pchMessageStart[3] = 0x12;
-        nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
@@ -486,7 +483,6 @@ public:
     }
 
     //! Published setters to allow changing values in unit test cases
-    virtual void setSubsidyHalvingInterval(int anSubsidyHalvingInterval) { nSubsidyHalvingInterval = anSubsidyHalvingInterval; }
     virtual void setEnforceBlockUpgradeMajority(int anEnforceBlockUpgradeMajority) { nEnforceBlockUpgradeMajority = anEnforceBlockUpgradeMajority; }
     virtual void setRejectBlockOutdatedMajority(int anRejectBlockOutdatedMajority) { nRejectBlockOutdatedMajority = anRejectBlockOutdatedMajority; }
     virtual void setToCheckBlockUpgradeMajority(int anToCheckBlockUpgradeMajority) { nToCheckBlockUpgradeMajority = anToCheckBlockUpgradeMajority; }
