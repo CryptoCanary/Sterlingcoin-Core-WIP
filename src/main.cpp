@@ -1864,8 +1864,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = 0;
 	/* STS SLG let's let MN start after PoW ends
         } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 2250) {
-	    ret = 0;
-        } */ 
+	    ret = 0; */ 
+        } 
    else {
         // 50/50 split of staking reward and masternode reward
         ret = blockValue / 2;
