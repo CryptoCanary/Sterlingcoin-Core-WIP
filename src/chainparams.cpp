@@ -134,7 +134,7 @@ public:
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 1000000 * COIN;
+        nMaxMoneyOut = 4300000 * COIN;
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
