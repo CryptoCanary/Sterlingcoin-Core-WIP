@@ -230,7 +230,6 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "";
-        strSporkKeyOld = "";
         strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = 1542675734; // 2018-11-20 1546300800; // 2019-01-01 00:00:00
 
@@ -367,7 +366,6 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "0429929bc9edbbdbee4830f004d0265608fbcc4caa9feff1fe58ff97354ddcf125b1c1636663d3f447d6c29d7b04bcb6fc492d2955c567be65ecb63fa2cbe2ce36";
-        strSporkKeyOld = "04beb92bb57470a4e6b011a291026c8cb6ce59c20b36ae5128d88b723c198443cb35cb2609eb9054f9fc49aa9f49257026cd1a09afb3fd7e1429086ab708ffb482";
         strObfuscationPoolDummyAddress = "m57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1541030400; //1st Nov 2018 00:00:00
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
