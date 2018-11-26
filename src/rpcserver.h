@@ -263,11 +263,11 @@ extern UniValue importzerocoins(const UniValue& params, bool fHelp);
 extern UniValue exportzerocoins(const UniValue& params, bool fHelp);
 extern UniValue reconsiderzerocoins(const UniValue& params, bool fHelp);
 extern UniValue getspentzerocoinamount(const UniValue& params, bool fHelp);
-extern UniValue setzhlmseed(const UniValue& params, bool fHelp);
-extern UniValue getzhlmseed(const UniValue& params, bool fHelp);
+extern UniValue setzslgseed(const UniValue& params, bool fHelp);
+extern UniValue getzslgseed(const UniValue& params, bool fHelp);
 extern UniValue generatemintlist(const UniValue& params, bool fHelp);
-extern UniValue searchdzhlm(const UniValue& params, bool fHelp);
-extern UniValue dzhlmstate(const UniValue& params, bool fHelp);
+extern UniValue searchdzslg(const UniValue& params, bool fHelp);
+extern UniValue dzslgstate(const UniValue& params, bool fHelp);
 
 extern UniValue getrawtransaction(const UniValue& params, bool fHelp); // in rcprawtransaction.cpp
 extern UniValue listunspent(const UniValue& params, bool fHelp);

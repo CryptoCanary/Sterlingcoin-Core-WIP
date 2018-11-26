@@ -3307,7 +3307,7 @@ UniValue reconsiderzerocoins(const UniValue& params, bool fHelp)
     return arrRet;
 }
 
-UniValue setzhlmseed(const UniValue& params, bool fHelp)
+UniValue setzslgseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 1)
         throw runtime_error(
@@ -3341,7 +3341,7 @@ UniValue setzhlmseed(const UniValue& params, bool fHelp)
     return ret;
 }
 
-UniValue getzhlmseed(const UniValue& params, bool fHelp)
+UniValue getzslgseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || !params.empty())
         throw runtime_error(
@@ -3415,7 +3415,7 @@ UniValue generatemintlist(const UniValue& params, bool fHelp)
     return arrRet;
 }
 
-UniValue dzhlmstate(const UniValue& params, bool fHelp) {
+UniValue dzslgstate(const UniValue& params, bool fHelp) {
     if (fHelp || params.size() != 0)
         throw runtime_error(
                 "dzslgstate\n"
@@ -3466,7 +3466,7 @@ void static SearchThread(CzPIVWallet* zwallet, int nCountStart, int nCountEnd)
     }
 }
 
-UniValue searchdzhlm(const UniValue& params, bool fHelp)
+UniValue searchdzslg(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 3)
         throw runtime_error(
