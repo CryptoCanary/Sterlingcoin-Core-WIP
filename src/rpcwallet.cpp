@@ -83,6 +83,30 @@ string AccountFromValue(const UniValue& value)
     return strAccount;
 }
 
+UniValue pubkeytoaddress(const UniValue& params, bool fHelp)
+{
+    if (fHelp || params.size() != 1)
+        throw std::runtime_error(
+            "pubkeytoaddress \"pubkey\"\n"
+            "\nConverts a public key (in hex) into an address (base58).\n"
+            "\nArguments:\n"
+            "1. \"pubkey\"           (string, required) The hex-encoded public key\n"
+            "\nExamples:\n"
+            + HelpExampleCli("pubkeytoaddress", "\"mypubkey\"")
+            + HelpExampleRpc("pubkeytoaddress", "\"mypubkey\"")
+        );
+
+    if (!IsHex(params[0].get_str()))
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Pubkey must be a hex string");
+
+    CPubKey pubKey(ParseHex(params[0].get_str()));
+    if (!pubKey.IsFullyValid())
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Pubkey is not a valid public key");
+
+    return CBitcoinAddress(pubKey.GetID()).ToString();
+}
+
+
 UniValue getnewaddress(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)

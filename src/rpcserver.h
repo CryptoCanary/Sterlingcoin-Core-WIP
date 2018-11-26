@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
+// Copyright (c) 2014-2018 The Sterlingcoin developers
 
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -210,7 +211,7 @@ extern UniValue getblocktemplate(const UniValue& params, bool fHelp);
 extern UniValue submitblock(const UniValue& params, bool fHelp);
 extern UniValue estimatefee(const UniValue& params, bool fHelp);
 extern UniValue estimatepriority(const UniValue& params, bool fHelp);
-
+extern UniValue pubkeytoaddress(const UniValue& params, bool fHelp);
 extern UniValue getnewaddress(const UniValue& params, bool fHelp); // in rpcwallet.cpp
 extern UniValue getaccountaddress(const UniValue& params, bool fHelp);
 extern UniValue getrawchangeaddress(const UniValue& params, bool fHelp);
