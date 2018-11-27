@@ -66,7 +66,7 @@ static const Checkpoints::CCheckpointData data = {
     1535104494, // * UNIX timestamp of last checkpoint block
     0,      // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    1440        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -137,15 +137,15 @@ public:
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
-        nLastPOWBlock = 1445; // Short PoW phase before transition to PoS
+        nLastPOWBlock = 1440; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
-        nZerocoinStartHeight = 999999999; // (PIVX: 863787, Phore 90000)
-        nZerocoinStartTime = 4101895950; // December 25, 2099 9:32:30 AM GMT-06:00
+        nZerocoinStartHeight = 1440; // STS SLG999999999; // (PIVX: 863787, Phore 90000)
+        nZerocoinStartTime = 1535104494; // STS SLG 4101895950; // December 25, 2099 9:32:30 AM GMT-06:00
         // nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block (Phore 90003)
         nBlockRecalculateAccumulators = 999999; // (PIVX: 895400, Phore 90005) //Trigger a recalculation of accumulators
         // nBlockFirstFraudulent = 90002; // (PIVX: 908000, Phore 90002) //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 999999; // (PIVX: 891730, Phore 90005) //Last valid accumulator checkpoint
+        nBlockLastGoodCheckpoint = 0; // STS SLG 999999; // (PIVX: 891730, Phore 90005) //Last valid accumulator checkpoint
         // nBlockEnforceInvalidUTXO = 0; // (PIVX: 902850) //Start enforcing the invalid UTXO's
         // nInvalidAmountFiltered = 268200*COIN; // (PIVX: 268200) //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 999999999; // (PIVX: 1153160) //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
@@ -228,7 +228,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "";
+        strSporkKey = "04374705696c388c25dcf49b3642d5ac69676e23c95a4e9990cc5ff5463d0e1c4436798dad3561954479e5c45afb9fae41eb907a78b02ef3d1eb3e714ba66097de";
         strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = 1542675734; // 2018-11-20 1546300800; // 2019-01-01 00:00:00
 
@@ -363,7 +363,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "0429929bc9edbbdbee4830f004d0265608fbcc4caa9feff1fe58ff97354ddcf125b1c1636663d3f447d6c29d7b04bcb6fc492d2955c567be65ecb63fa2cbe2ce36";
+        strSporkKey = "04802e322a3a2cc3a627cfe848e500ff2865915a90c2b7258bd5ffa9d81e08101b16d2b29407fd99eb4c09c40cb8b9f708c882545ed42283f11ff17834a14deb67";
         strObfuscationPoolDummyAddress = "m57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1541030400; //1st Nov 2018 00:00:00
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
