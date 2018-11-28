@@ -74,7 +74,7 @@ UniValue masternode(const UniValue& params, bool fHelp)
             "  debug        - Print masternode status\n"
             "  genkey       - Generate new masternodeprivkey\n"
             "  outputs      - Print masternode compatible outputs\n"
-            "  start        - Start masternode configured in sterlingcoin.conf\n"
+            "  start        - Start masternode configured in masternode.conf\n"
             "  start-alias  - Start single masternode by assigned alias configured in masternode.conf\n"
             "  start-<mode> - Start masternodes configured in masternode.conf (<mode>: 'all', 'missing', 'disabled')\n"
             "  status       - Print masternode status information\n"
