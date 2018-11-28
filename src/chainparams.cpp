@@ -66,7 +66,7 @@ static const Checkpoints::CCheckpointData data = {
     1535104494, // * UNIX timestamp of last checkpoint block
     0,      // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    1440        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -137,10 +137,10 @@ public:
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
-        nLastPOWBlock = 140; // Short PoW phase before transition to PoS
+        nLastPOWBlock = 1440; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
-        nZerocoinStartHeight = 1440; // STS SLG999999999; // (PIVX: 863787, Phore 90000)
+        nZerocoinStartHeight = 1440; // STS SLG 999999999; // (PIVX: 863787, Phore 90000)
         nZerocoinStartTime = 4101895950; // December 25, 2099 9:32:30 AM GMT-06:00
         // nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block (Phore 90003)
         nBlockRecalculateAccumulators = 999999; // (PIVX: 895400, Phore 90005) //Trigger a recalculation of accumulators
@@ -229,8 +229,8 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04374705696c388c25dcf49b3642d5ac69676e23c95a4e9990cc5ff5463d0e1c4436798dad3561954479e5c45afb9fae41eb907a78b02ef3d1eb3e714ba66097de";
-        strObfuscationPoolDummyAddress = "S87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
-        nStartMasternodePayments = 1542675734; // 2018-11-20 1546300800; // 2019-01-01 00:00:00
+        strObfuscationPoolDummyAddress = "SbuHwhqkevg8kfvmzwwPtqowPJDEQJuLLy";
+        nStartMasternodePayments = 1541030400; // 2018-11-1 1546300800; // 2019-01-01 00:00:00
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
