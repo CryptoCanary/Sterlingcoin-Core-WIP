@@ -21,6 +21,7 @@
 #include "optionsmodel.h"
 #include "rpcconsole.h"
 #include "utilitydialog.h"
+#include "privacydialog.h"
 
 #ifdef ENABLE_WALLET
 #include "blockexplorer.h"
@@ -352,7 +353,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     tabGroup->addAction(historyAction);
 
     privacyAction = new QAction(QIcon(":/icons/privacy"), tr("&Privacy"), this);
-    privacyAction->setStatusTip(tr("Privacy actions are currently disabled"));
+    privacyAction->setStatusTip(tr("Privacy actions"));
     privacyAction->setToolTip(privacyAction->statusTip());
     privacyAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -360,7 +361,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 #else
     privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
 #endif
-    
+    tabGroup->addAction(privacyAction);
 
 #ifdef ENABLE_WALLET
 
@@ -571,7 +572,6 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(overviewAction);
         toolbar->addAction(sendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
-        toolbar->addAction(privacyAction);
         toolbar->addAction(historyAction);
         toolbar->addAction(privacyAction);
         QSettings settings;

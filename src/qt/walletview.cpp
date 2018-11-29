@@ -124,6 +124,7 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
     addWidget(explorerWindow);
+    addWidget(privacyPage);
 
     QSettings settings;
     if (settings.value("fShowMasternodesTab").toBool()) {
@@ -269,9 +270,9 @@ void WalletView::gotoReceiveCoinsPage()
 
 void WalletView::gotoPrivacyPage()
 {
-    setCurrentWidget(privacyPage);
     // Refresh UI-elements in case coins were locked/unlocked in CoinControl
     walletModel->emitBalanceChanged();
+    setCurrentWidget(privacyPage);
 }
 
 void WalletView::gotoSendCoinsPage(QString addr)

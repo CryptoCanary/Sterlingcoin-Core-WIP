@@ -18,6 +18,7 @@ class WalletModel;
 class WalletView;
 class TradingDialog;
 class BlockExplorer;
+class PrivacyDialog;
 
 QT_BEGIN_NAMESPACE
 class QStackedWidget;
