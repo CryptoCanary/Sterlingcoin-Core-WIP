@@ -270,9 +270,9 @@ void WalletView::gotoReceiveCoinsPage()
 
 void WalletView::gotoPrivacyPage()
 {
+    setCurrentWidget(privacyPage);
     // Refresh UI-elements in case coins were locked/unlocked in CoinControl
     walletModel->emitBalanceChanged();
-    setCurrentWidget(privacyPage);
 }
 
 void WalletView::gotoSendCoinsPage(QString addr)
