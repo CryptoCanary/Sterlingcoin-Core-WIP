@@ -131,7 +131,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
-        nMaturity = 119;
+        nMaturity = 120;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 4300000 * COIN;
 
