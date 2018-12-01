@@ -21,7 +21,6 @@
 #include "optionsmodel.h"
 #include "rpcconsole.h"
 #include "utilitydialog.h"
-#include "privacydialog.h"
 
 #ifdef ENABLE_WALLET
 #include "blockexplorer.h"

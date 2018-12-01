@@ -31,7 +31,6 @@ class UnitDisplayStatusBarControl;
 class WalletFrame;
 class WalletModel;
 class MasternodeList;
-class PrivacyDialog;
 
 class CWallet;
 
