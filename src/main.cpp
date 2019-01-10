@@ -1825,22 +1825,18 @@ int64_t GetBlockValue(int nHeight)
         } else {
             return static_cast<int64_t>(200 * COIN);
         }
-
     }
 
     int64_t nSubsidy = 0;
     // Block 1: credit majority of public ledger total, for subsequent disbursal.
     // Total of PoW phase adds up to all coins generated during PoW phase + 4 years of PoS.
-    // Total ledger value premine: ~4.3 mil    PoW Phase: 1440 blocks (~one day) 0 reward
+    // Total ledger value premine: ~4.4 mil    PoW Phase: 4320 blocks (~3 day) 0 reward
     if (nHeight == 1) {
-        nSubsidy = static_cast<int64_t>(4300000 * COIN);
+        nSubsidy = static_cast<int64_t>(4400000 * COIN);
     } else if (nHeight <= Params().LAST_POW_BLOCK()) {
         nSubsidy = static_cast<int64_t>(0 * COIN);
-    // Low PoS reward for ~2 weeks following initial wallet launch
-    } else if (nHeight <= 20160) {
-        nSubsidy = static_cast<int64_t>(0.5 * COIN); 
     } else {
-        nSubsidy = static_cast<int64_t>(5.5 * COIN);
+        nSubsidy = static_cast<int64_t>(1 * COIN);
     }
     return nSubsidy;
 }
@@ -1870,7 +1866,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         // 50/50 split of staking reward and masternode reward
         ret = blockValue / 2;
     //} else {
-    //    //When zPIV is staked, masternode only gets 2 SLG
+    //    //When zPIV is staked, masternode only gets 2 
     //    ret = 3 * COIN;
     //    if (isZPIVStake)
     //        ret = 2 * COIN;
@@ -2855,7 +2851,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     nTimeConnect += nTime1 - nTimeStart;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
-    if (pindex->nHeight > 1440) {
+    if (pindex->nHeight > 720) {
         //PoW phase redistributed fees to miner. PoS stage destroys fees.
         // STS SLG PoW destroys fees. PoS gets epected + fees
         CAmount nExpectedMint = GetBlockValue(pindex->nHeight);
