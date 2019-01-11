@@ -131,24 +131,24 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // Sterlingcoin: 1 day
         nTargetSpacing = 60;  // Sterlingcoin: 1 minute
-        nMaturity = 120;
+        nMaturity = 60;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 4300000 * COIN;
+        nMaxMoneyOut = 4400000 * COIN;
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
         nLastPOWBlock = 4320; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
-        nZerocoinStartHeight = 1440; // STS SLG 999999999; // (PIVX: 863787, Phore 90000)
-        nZerocoinStartTime = 4101895950; // December 25, 2099 9:32:30 AM GMT-06:00
+        nZerocoinStartHeight = 1440; // STS SLG for 1st public test. 999999999; // (PIVX: 863787, Phore 90000)
+        nZerocoinStartTime = 1547340081; // STS SLG for 1st public test. 4101895950; // December 25, 2099 9:32:30 AM GMT-06:00
         // nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block (Phore 90003)
         nBlockRecalculateAccumulators = 999999; // (PIVX: 895400, Phore 90005) //Trigger a recalculation of accumulators
         // nBlockFirstFraudulent = 90002; // (PIVX: 908000, Phore 90002) //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 0; // STS SLG 999999; // (PIVX: 891730, Phore 90005) //Last valid accumulator checkpoint
         // nBlockEnforceInvalidUTXO = 0; // (PIVX: 902850) //Start enforcing the invalid UTXO's
         // nInvalidAmountFiltered = 268200*COIN; // (PIVX: 268200) //Amount of invalid coins filtered through exchanges, that should be considered valid
-        nBlockZerocoinV2 = 999999999; // (PIVX: 1153160) //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
+        nBlockZerocoinV2 = 1440; // STS SLG for 1st public test. 999999999; // (PIVX: 1153160) //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
         nEnforceNewSporkKey = 1537963200; // (PIVX: 1525158000) //!> Sporks signed after (GMT): Wednesday, September 26,2018 12:00 PM must use the new spork key
         nRejectOldSporkKey = 1537966800; // (PIVX: 1527811200) //!> Fully reject old spork key after (GMT): Wednesday, September 26,2018 12:00 PM
 
