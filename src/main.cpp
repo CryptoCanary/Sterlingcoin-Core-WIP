@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
-// Copyright (c) 2014-2018 The Sterlingcoin developers
+// Copyright (c) 2014-2019 The Sterlingcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1830,9 +1830,9 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
     // Block 1: credit majority of public ledger total, for subsequent disbursal.
     // Total of PoW phase adds up to all coins generated during PoW phase + 4 years of PoS.
-    // Total ledger value premine: ~4.4 mil    PoW Phase: 4320 blocks (~3 day) 0 reward
-    if (nHeight == 1) {
-        nSubsidy = static_cast<int64_t>(4400000 * COIN);
+    // Total ledger value premine: ~4.4 mil (10k SLG x 440)  PoW Phase: 1440 blocks (~1 day) 0 reward
+    if (nHeight <= 440) {
+        nSubsidy = static_cast<int64_t>(10000 * COIN);
     } else if (nHeight <= Params().LAST_POW_BLOCK()) {
         nSubsidy = static_cast<int64_t>(0 * COIN);
     } else {
@@ -1860,8 +1860,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = 0;
 	/* STS SLG let's let MN start after PoW ends
         } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 2250) {
-	    ret = 0; */ 
-        } 
+	    ret = 0; */
+        }
    else {
         // 50/50 split of staking reward and masternode reward
         ret = blockValue / 2;
@@ -2851,7 +2851,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     nTimeConnect += nTime1 - nTimeStart;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
-    if (pindex->nHeight > 720) {
+    if (pindex->nHeight > 1440) {
         //PoW phase redistributed fees to miner. PoS stage destroys fees.
         // STS SLG PoW destroys fees. PoS gets epected + fees
         CAmount nExpectedMint = GetBlockValue(pindex->nHeight);

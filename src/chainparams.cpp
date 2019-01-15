@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018 The Helium developers
-// Copyright (c) 2014-2018 The Sterlingcoin developers
+// Copyright (c) 2014-2019 The Sterlingcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -137,7 +137,7 @@ public:
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
-        nLastPOWBlock = 4320; // Short PoW phase before transition to PoS
+        nLastPOWBlock = 1440; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
         nZerocoinStartHeight = 1440; // STS SLG for 1st public test. 999999999; // (PIVX: 863787, Phore 90000)
@@ -202,7 +202,6 @@ public:
 	vSeeds.push_back(CDNSSeedData("dns1", "74.5.10.216"));
 	//vSeeds.push_back(CDNSSeedData("seed3", "seed3.sterlingcoin.org"));
 	//vSeeds.push_back(CDNSSeedData("seed4", "seed4.sterlingcoin.org"));
-	
         // Sterlingcoin addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
         // Sterlingcoin script addresses start with '3'
@@ -246,7 +245,6 @@ public:
         nDefaultSecurityLevel = 100; //full security level for accumulators
         nZerocoinHeaderVersion = 4; //Block headers must be this version once zerocoin is active
         nZerocoinRequiredStakeDepth = 200; //The required confirmations for a zpiv to be stakable
-
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
 
@@ -334,8 +332,7 @@ public:
         // Testnet --- nonce: 199886 time: 1535103494 hash: 0x000001df13da5e688ae69246b88b6aa241cfdcbb684bdd9af85c86987734ef6b merklehash: 0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22
 
         vFixedSeeds.clear();
-        vSeeds.clear();
-	
+        vSeeds.clear();	
         vSeeds.push_back(CDNSSeedData("tdns0", "dns0.sterlingcoin.org"));
         vSeeds.push_back(CDNSSeedData("tdns1", "74.5.10.216"));
 
