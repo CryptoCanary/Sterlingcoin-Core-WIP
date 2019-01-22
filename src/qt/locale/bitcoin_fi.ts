@@ -1538,7 +1538,7 @@ Please check the address and try again.</source>
         <translation>Nykyinen lohkojen määrä</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>

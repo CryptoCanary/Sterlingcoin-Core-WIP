@@ -3815,8 +3815,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+160"/>
-        <source>Block chain</source>
-        <translation>Block chain</translation>
+        <source>Blockchain</source>
+        <translation>Blockchain</translation>
     </message>
     <message>
         <location line="+79"/>

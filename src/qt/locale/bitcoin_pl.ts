@@ -1587,7 +1587,7 @@ https://Sterlingcoin.org </translation>
         <translation>Używanie wersji BerkeleyDB</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Łańcuch bloków</translation>
     </message>
     <message>

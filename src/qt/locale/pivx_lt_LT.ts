@@ -2303,7 +2303,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Naudojant BerkeleyDB versiją</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Blockchain</translation>
     </message>
     <message>

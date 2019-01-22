@@ -2269,7 +2269,7 @@ https://Sterlingcoin.org</translation>
         <translation>Usando BerkeleyDB versión</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Cadena de bloques</translation>
     </message>
     <message>

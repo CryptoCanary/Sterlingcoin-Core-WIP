@@ -2233,7 +2233,7 @@ https://Sterlingcoin.org</translation>
         <translation>사용중인 BerkeleyDB 버전</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>블록체인</translation>
     </message>
     <message>

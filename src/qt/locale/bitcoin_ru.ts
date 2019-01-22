@@ -2185,7 +2185,7 @@ https://Sterlingcoin.org</translation>
         <translation>Используемая версия BrekleyDB</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Блокчейн</translation>
     </message>
     <message>

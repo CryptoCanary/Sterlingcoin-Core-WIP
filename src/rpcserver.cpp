@@ -299,7 +299,7 @@ static const CRPCCommand vRPCCommands[] =
         {"network", "listbanned", &listbanned, true, false, false},
         {"network", "clearbanned", &clearbanned, true, false, false},
 
-        /* Block chain and UTXO */
+        /* Blockchain and UTXO */
         {"blockchain", "findserial", &findserial, true, false, false},
         {"blockchain", "getaccumulatorvalues", &getaccumulatorvalues, true, false, false},
         {"blockchain", "getblockchaininfo", &getblockchaininfo, true, false, false},

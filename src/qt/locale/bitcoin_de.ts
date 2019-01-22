@@ -2662,8 +2662,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Verwendete BerkeleyDB Version</translation>
     </message>
     <message>
-        <source>Block chain</source>
-        <translation>Block chain</translation>
+        <source>Blockchain</source>
+        <translation>Blockchain</translation>
     </message>
     <message>
         <source>Open the Sterlingcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>

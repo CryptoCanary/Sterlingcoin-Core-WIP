@@ -2045,8 +2045,8 @@ https://Sterlingcoin.org</translation>
         <translation>versão do Cliente</translation>
     </message>
     <message>
-        <source>Block chain</source>
-        <translation>Block chain</translation>
+        <source>Blockchain</source>
+        <translation>Blockchain</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>

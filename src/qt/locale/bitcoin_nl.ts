@@ -1741,7 +1741,7 @@ MultiSend: %1</translation>
         <translation>Gebruikt BerkeleyDB versie</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Blockchain</translation>
     </message>
     <message>

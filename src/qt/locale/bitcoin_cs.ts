@@ -1805,7 +1805,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Verze Klienta</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Blockchain</translation>
     </message>
     <message>
