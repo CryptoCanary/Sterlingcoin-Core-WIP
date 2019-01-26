@@ -1211,7 +1211,7 @@ Adresse: %4
         <translation>Da det er første gang programmet startes, kan De vælge hvor Sterlingcoin kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin kernen vil nu hente og gemme en kopi af Sterlingcoin blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
@@ -2349,7 +2349,7 @@ https://Sterlingcoin.org</translation>
         <translation>Gennemsøg blokkædens filer</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Genskan blokkæden for manglende transaktioner i tegnebogen</translation>
     </message>
     <message>
@@ -2373,7 +2373,7 @@ https://Sterlingcoin.org</translation>
         <translation>Opdater formatet for tegnebogen</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>Genopbyg blokkædens indeks fra de aktuelle blk000??.dat filer</translation>
     </message>
     <message>
@@ -3351,7 +3351,7 @@ https://Sterlingcoin.org</translation>
         <translation>Forhandler</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Genererede mønter skal modnes i %1 blokke førend de kan anvendes. Da denne blok blev genereret, blev den udsendt til netværket for at blive tilføjet til blokkæden. Hvis det skulle mislykkes, vil status skifte til "afvist!" og den vil derefter ikke være brugbar. Dette sker ind i mellem, når en anden node genererer en blok nærligt samtidigt.</translation>
     </message>
     <message>
@@ -4575,7 +4575,7 @@ For eksempel: alertnotify=Echo %% | mail - s "Sterlingcoin ALARM!" e-mail@admini
         <translation>Tilsløringsanmodning ikke færdiggjort</translation>
     </message>
     <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
         <translation>Accepter kun blokkæde matchende indbyggede kontrolpunkter (defaut %u)</translation>
     </message>
     <message>
@@ -4615,7 +4615,7 @@ For eksempel: alertnotify=Echo %% | mail - s "Sterlingcoin ALARM!" e-mail@admini
         <translation>Gør 1 af hver &lt;n&gt; netværksmeddelelser uklar efter tilfældighedsprincippet</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
         <translation>Genopbyg blokkædens indeks fra de aktuelle blk000??.dat filer</translation>
     </message>
     <message>
@@ -4631,7 +4631,7 @@ For eksempel: alertnotify=Echo %% | mail - s "Sterlingcoin ALARM!" e-mail@admini
         <translation>Videresend ikke-P2SH mulisig (default %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Genskan blokkæden for manglende transaktioner i tegnebogen</translation>
     </message>
     <message>

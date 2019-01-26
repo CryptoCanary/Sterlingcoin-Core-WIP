@@ -1211,7 +1211,7 @@ Address: %4
         <translation>이 프로그램이 처음 실행되었으므로 Sterlingcoin Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin Core는 Sterlingcoin 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
@@ -2353,7 +2353,7 @@ https://Sterlingcoin.org</translation>
         <translation>블록체인 파일 재스캔</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>거래내역 복구를 위한 블록체인 재검색</translation>
     </message>
     <message>
@@ -2378,7 +2378,7 @@ https://Sterlingcoin.org</translation>
         <translation>지갑 구성 업그레이드</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>현재 blk000??.dat로 부터 블록체인 인덱스 재작성</translation>
     </message>
     <message>
@@ -3361,7 +3361,7 @@ https://Sterlingcoin.org</translation>
         <translation>상인</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>생성된 코인은 사용되기 전 %1 블록이 완료되야 합니다. 이 블록을 생성하면 네트워크에 브로드캐스팅되어 블록체인에 추가 됩니다. 체인이 실패한 경우 "승인되지 않음"으로 바뀌어 사용할 수 없습니다. 다른 노드가 당신과 겹쳐서 몇 초 이내 블록을 생성하면 때때로 이런 일이 발생할 수 있습니다.</translation>
     </message>
     <message>
@@ -4620,7 +4620,7 @@ rpcpassword=%s
         <translation>난독화 요청 미완료:</translation>
     </message>
     <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
         <translation>내장된 체크 포인트와 일치하는 블록체인만 허용 (기본값: %u)</translation>
     </message>
     <message>
@@ -4664,7 +4664,7 @@ rpcpassword=%s
         <translation>&lt;n&gt;개의 네트워크 메세지마다 무작위로 1 퍼즈</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
         <translation>현재 blk000??.dat 파일의 블록체인 인덱스를 다시 구축합니다</translation>
     </message>
     <message>
@@ -4680,7 +4680,7 @@ rpcpassword=%s
         <translation>non-P2SH multisig 중계 (기본값: %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>누락된 지갑 트랜잭션에 대해 블록체인을 다시 스캔합니다</translation>
     </message>
     <message>

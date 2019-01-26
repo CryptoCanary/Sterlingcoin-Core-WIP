@@ -1294,7 +1294,7 @@ Višestruko slanje: %1</translation>
         <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će PIVX Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>PIVX Core will download and store a copy of the PIVX blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>PIVX Core preuzima i pohranjuje kopiju PIVX blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
@@ -3322,7 +3322,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Ponovno skeniranje blockchain datoteka</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Ponovno skeniranje blok-lanca za transakcije novčanika koji nedostaju.</translation>
     </message>
     <message>
@@ -3346,7 +3346,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Nadogradnja formata Novčanika</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>Obnovi indeks blok lanca iz trenutnih blk000 ?? dat datoteka.</translation>
     </message>
     <message>
@@ -4419,7 +4419,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Trgovac</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Generirani novčići moraju se narasti za %1 blokova prije nego što se mogu potrošiti. Kada ste generirali taj blok, emitiran je na mrežu koji će biti dodan u blok lanac. Ako ne uspije ući u lanac, stanje će se promijeniti u "ne prihvaća" i neće biti potrošeno. To se ponekad može dogoditi ako drugi čvor generira blok u roku od nekoliko sekundi od vašeg.</translation>
     </message>
     <message>
@@ -5879,7 +5879,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Nedovršeni zahtjevi za Prikrivanje:</translation>
     </message>
     <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
         <translation>Prihvatite blok lanac koji odgovara ugrađenim kontrolnim točkama (zadano: %u)</translation>
     </message>
     <message>
@@ -5923,7 +5923,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Označava slučajno svaka 1 &lt;n&gt; mrežne poruke</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
         <translation>Obnovi indeks blok lanca iz trenutnih blk000??.dat datoteka</translation>
     </message>
     <message>
@@ -5943,7 +5943,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Relay ne-P2SH multisig (zadano: %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Ponovno skeniranje blok-lanca za transakcije novčanika koji nedostaju</translation>
     </message>
     <message>

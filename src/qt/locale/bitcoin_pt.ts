@@ -992,7 +992,7 @@
         <translation>Transações de retransmissão e transações de dados de mina (padrão:%u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Analise novamente a cadeia de blocos para ver se há transações de carteira em falta</translation>
     </message>
     <message>

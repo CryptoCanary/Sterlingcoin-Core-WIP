@@ -1247,8 +1247,8 @@ Address: %4
         <translation>As this is the first time the program is launched, you can choose where Sterlingcoin Core will store its data.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -2432,8 +2432,8 @@ https://Sterlingcoin.org</translation>
         <translation>Rescan blockchain files</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Rescan the block chain for missing wallet transactions.</translation>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
+        <translation>Rescan the blockchain for missing wallet transactions.</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
@@ -2456,8 +2456,8 @@ https://Sterlingcoin.org</translation>
         <translation>Upgrade wallet format</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Rebuild block chain index from current blk000??.dat files.</translation>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
+        <translation>Rebuild blockchain index from current blk000??.dat files.</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
@@ -3466,8 +3466,8 @@ https://Sterlingcoin.org</translation>
         <translation>Merchant</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -4738,8 +4738,8 @@ for example: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Obfuscation request incomplete:</translation>
     </message>
     <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Only accept block chain matching built-in checkpoints (default: %u)</translation>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
+        <translation>Only accept blockchain matching built-in checkpoints (default: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
@@ -4782,8 +4782,8 @@ for example: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Randomly fuzz 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Rebuild block chain index from current blk000??.dat files</translation>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
+        <translation>Rebuild blockchain index from current blk000??.dat files</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -4798,8 +4798,8 @@ for example: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Relay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan the block chain for missing wallet transactions</translation>
+        <source>Rescan the blockchain for missing wallet transactions</source>
+        <translation>Rescan the blockchain for missing wallet transactions</translation>
     </message>
     <message>
         <source>Rescanning...</source>

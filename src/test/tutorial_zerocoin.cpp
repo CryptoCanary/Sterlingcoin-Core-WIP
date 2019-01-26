@@ -125,7 +125,7 @@ ZerocoinTutorial()
 		if (!pubCoinNew.validate()) {
 			// If this returns false, don't accept the coin for any purpose!
 			// Any ZEROCOIN_MINT with an invalid coin should NOT be
-			// accepted as a valid transaction in the block chain.
+			// accepted as a valid transaction in the blockchain.
 			cout << "Error: coin is not valid!";
 		}
 		
@@ -135,7 +135,7 @@ ZerocoinTutorial()
 		// What is it:      Accumulator computation
 		// Who does it:     ZEROCOIN CLIENTS & TRANSACTION VERIFIERS
 		// What it does:    Collects a number of PublicCoin values drawn from
-		//                  the block chain and calculates an accumulator.
+		//                  the blockchain and calculates an accumulator.
 		//                  This accumulator is incrementally computable;
 		//                  you can stop and serialize it at any point
 		//                  then continue accumulating new transactions.
@@ -183,7 +183,7 @@ ZerocoinTutorial()
 		//                  The user first authors a transaction specifying
 		//                  a set of destination addresses (outputs). They
 		//                  next compute an Accumulator over all coins in the
-		//                  block chain (see above) and a Witness based on the
+		//                  blockchain (see above) and a Witness based on the
 		//                  coin to be spent. Finally they instantiate a CoinSpend
 		//                  object that 'signs' the transaction with a special
 		//                  zero knowledge signature of knowledge over the coin

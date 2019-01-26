@@ -1184,7 +1184,7 @@ MultiSend: %1</translation>
         <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Sterlingcoin Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin Core vai baixar e armazenar uma cópia da blockchain Sterlingcoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>

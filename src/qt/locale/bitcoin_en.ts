@@ -1631,7 +1631,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+14"/>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4002,7 +4002,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+44"/>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5347,8 +5347,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+6"/>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7106,8 +7106,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Sterlingcoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation type="unfinished">Only accept block chain matching built-in checkpoints (default: %u)</translation>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
+        <translation type="unfinished">Only accept blockchain matching built-in checkpoints (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7171,8 +7171,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Sterlingcoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished">Rebuild block chain index from current blk000??.dat files</translation>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
+        <translation type="unfinished">Rebuild blockchain index from current blk000??.dat files</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7206,8 +7206,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Sterlingcoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">Rescan the block chain for missing wallet transactions</translation>
+        <source>Rescan the blockchain for missing wallet transactions</source>
+        <translation type="unfinished">Rescan the blockchain for missing wallet transactions</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -1246,7 +1246,7 @@ Adresse: %4</translation>
         <translation>Da dies das erste Mal ist, dass Sie Sterlingcoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
@@ -2782,7 +2782,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Nachscannen der Bockchain Dateien</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Nachscannen der Bockchain nach verschollen Wallet Transaktionen</translation>
     </message>
     <message>
@@ -2806,7 +2806,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Upgrade Wallet Format</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>Umbau des Blockchain Index vom aktuellen blk000??.dat Datei.</translation>
     </message>
     <message>
@@ -3816,7 +3816,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Händler</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Erzeugte SLGs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine SLGs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
@@ -4579,7 +4579,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>RPC Serveroptionen:</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Neuscannen der  Blockchain nach fehlenden Wallet-Transaktionen</translation>
     </message>
     <message>

@@ -1638,7 +1638,7 @@ Please check the address and try again.</source>
         <translation>Uudelleenskannaa blockchain tiedostot</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Uudelleenskannaa blockchain puuttuvista rahansiirroista</translation>
     </message>
     <message>

@@ -1231,7 +1231,7 @@ MultiEnvío: %1</translation>
         <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Sterlingcoin Core sus datos.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin Core descargará y guardará una copia de la cadena de bloques Sterlingcoin. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
@@ -2389,7 +2389,7 @@ https://Sterlingcoin.org</translation>
         <translation>Reescanear ficheros de cadena de bloques</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Reescanear la cadena de bloques buscando transacciones que faltan en el monedero.</translation>
     </message>
     <message>
@@ -2413,7 +2413,7 @@ https://Sterlingcoin.org</translation>
         <translation>Actualizar formato del monedero</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>Reconstruir el índice de la cadena de bloques desde los archivos blk000??.dat actuales.</translation>
     </message>
     <message>
@@ -3391,7 +3391,7 @@ https://Sterlingcoin.org</translation>
         <translation>Comerciante</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the blockchain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Las monedas generadas deben madurarse %1 bloques hasta que puedan ser gastadas de nuevo. Cuando generaste este bloque, se retransmitió a la red para añadirse a la cadena de bloques. Si falla en unirse a la cadena, su estado cambiará a "no aceptado" y no se podrá gastar de nuevo (bloque huérfano). Esto puede ocurrir ocasionalmente si otro nodo genera un bloque casi al mismo tiempo que el tuyo.</translation>
     </message>
     <message>
@@ -4650,7 +4650,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Pedido de Ofuscación incompleto:</translation>
     </message>
     <message>
-        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <source>Only accept blockchain matching built-in checkpoints (default: %u)</source>
         <translation>Solo aceptar cadena de bloque emparejada con puntos de verificación construidos (predeterminado: %u)</translation>
     </message>
     <message>
@@ -4694,7 +4694,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Aleatoriamente esfumar 1 de cada &lt;n&gt; mensajes de red</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <source>Rebuild blockchain index from current blk000??.dat files</source>
         <translation>Reconstruir el indice de la cadena de bloque desde el corriente archivo blk000??.dat</translation>
     </message>
     <message>
@@ -4710,7 +4710,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Sterlingcoin Alert" admin@foo.com
         <translation>Transmitir no-P2SH multisig (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Reescanear la cadena de bloques en busca de transacciones perdidas del monedero</translation>
     </message>
     <message>

@@ -1207,7 +1207,7 @@ MultiSend: %1</translation>
         <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Sterlingcoin Core.</translation>
     </message>
     <message>
-        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sterlingcoin Core will download and store a copy of the Sterlingcoin blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Sterlingcoin Core загрузит и сохранит копию цепочки блоков Sterlingcoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
@@ -2297,7 +2297,7 @@ https://Sterlingcoin.org</translation>
         <translation>Пересканировать файлы блокчейна</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions.</source>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
         <translation>Пересканировать блокчейн для поиска пропущенных транзакций в кошельке.</translation>
     </message>
     <message>
@@ -2321,7 +2321,7 @@ https://Sterlingcoin.org</translation>
         <translation>Обновить формат кошелька</translation>
     </message>
     <message>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <source>Rebuild blockchain index from current blk000??.dat files.</source>
         <translation>Перестроить индекс блокчейна из текущих blk000??.dat файлов.</translation>
     </message>
     <message>
@@ -3307,7 +3307,7 @@ https://Sterlingcoin.org</translation>
         <translation>Параметры сервера RPC:</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
+        <source>Rescan the blockchain for missing wallet transactions</source>
         <translation>Повторите сканирование цепочки блоков для пропущенных транзакций в кошельке.</translation>
     </message>
     <message>
