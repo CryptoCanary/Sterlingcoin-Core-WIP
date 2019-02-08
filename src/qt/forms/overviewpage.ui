@@ -865,7 +865,7 @@
                        </font>
                       </property>
                       <property name="text">
-                       <string>Recent transactions</string>
+                       <string>Recent Transactions</string>
                       </property>
                      </widget>
                     </item>
