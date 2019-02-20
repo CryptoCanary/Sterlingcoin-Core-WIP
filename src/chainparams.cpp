@@ -137,7 +137,7 @@ public:
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 20160; // 14 days @ 1440 per day (PIVX: 259200, Phore 200)
-        nLastPOWBlock = 4320; // Short PoW phase before transition to PoS
+        nLastPOWBlock = 1440; // Short PoW phase before transition to PoS
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
         nZerocoinStartHeight = 1440; // STS SLG for 1st public test. 999999999; // (PIVX: 863787, Phore 90000)
