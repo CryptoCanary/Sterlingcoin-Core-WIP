@@ -1830,7 +1830,7 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
     // Block 1: credit majority of public ledger total, for subsequent disbursal.
     // Total of PoW phase adds up to all coins generated during PoW phase + 4 years of PoS.
-    // Total ledger value premine: ~4.4 mil (10k SLG x 440)  PoW Phase: 4320 blocks (~3 day) 0 reward
+    // Total ledger value premine: ~4.4 mil (10k SLG x 440)  PoW Phase: 1440 blocks (~1 day) 0 reward
     if (nHeight <= 440) {
         nSubsidy = static_cast<int64_t>(10000 * COIN);
     } else if (nHeight <= Params().LAST_POW_BLOCK()) {
@@ -2851,7 +2851,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     nTimeConnect += nTime1 - nTimeStart;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
-    if (pindex->nHeight > 4320) {
+    if (pindex->nHeight > 1440) {
         //PoW phase redistributed fees to miner. PoS stage destroys fees.
         // STS SLG PoW destroys fees. PoS gets epected + fees
         CAmount nExpectedMint = GetBlockValue(pindex->nHeight);
