@@ -199,7 +199,7 @@ public:
         // Mainnet --- nonce: 687423 time: 1535104494 hash: 0x000007bf9d3b20a9b2ef722caf7bf1740cb729de37eb067e3f950f7a9b14e65d merklehash: 0xb1c85b9f12cb779f5e97145ecc858952c35a27c4c1dd7ddacca2d74804a91a22
 
         vSeeds.push_back(CDNSSeedData("dns0", "dns0.sterlingcoin.org"));
-	vSeeds.push_back(CDNSSeedData("dns1", "74.5.10.216"));
+	//vSeeds.push_back(CDNSSeedData("dns1", "71.213.1.53"));
 	//vSeeds.push_back(CDNSSeedData("seed3", "seed3.sterlingcoin.org"));
 	//vSeeds.push_back(CDNSSeedData("seed4", "seed4.sterlingcoin.org"));
         // Sterlingcoin addresses start with 'S'
@@ -334,7 +334,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();	
         vSeeds.push_back(CDNSSeedData("tdns0", "dns0.sterlingcoin.org"));
-        vSeeds.push_back(CDNSSeedData("tdns1", "74.5.10.216"));
+        //vSeeds.push_back(CDNSSeedData("tdns1", "71.213.1.53"));
 
         // Testnet Sterlingcoin addresses start with 'm' or 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
